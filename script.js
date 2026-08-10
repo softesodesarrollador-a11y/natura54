@@ -44,6 +44,29 @@ const translations = {
     tourismIntro: "Plans to discover Ibagu\u00e9 through nature, culture and adventure.",
     sportsIntro: "Sports venues, soccer fields and places to stay active in the city.",
     phone: "Phone"
+  },
+  fr: {
+    topLabel: "Guide des h\u00f4tes",
+    meet: "D\u00e9couvrez Natura 54",
+    welcomeTitle: "Bienvenue \u00e0 Natura 54 Experience \u{1F33F}",
+    welcomeOne:
+      "Votre s\u00e9jour commence ici. D\u00e9couvrez Natura 54, les meilleurs lieux d'Ibagu\u00e9, ainsi que des restaurants, caf\u00e9s, centres commerciaux, plans touristiques et exp\u00e9riences proches de vous.",
+    welcomeTwo:
+      "Nous avons cr\u00e9\u00e9 ce guide pour que vous profitiez de la ville de mani\u00e8re simple, confortable et sp\u00e9ciale.",
+    welcomeThree: "Explorez, d\u00e9couvrez et vivez Ibagu\u00e9. Votre exp\u00e9rience \u00e0 Natura 54 commence maintenant.",
+    addressLabel: "Adresse",
+    route: "Itin\u00e9raire",
+    whatToday: "Que voulez-vous faire aujourd'hui ?",
+    gastronomy: "Gastronomie",
+    shopping: "Shopping",
+    tourism: "Tourisme",
+    sports: "Sports",
+    map: "Ouvrir dans Google Maps",
+    gastronomyIntro: "Restaurants, caf\u00e9s, boissons et saveurs recommand\u00e9es \u00e0 Ibagu\u00e9.",
+    shoppingIntro: "Achats, supermarch\u00e9s, pharmacies et services utiles pendant votre s\u00e9jour.",
+    tourismIntro: "Des plans pour d\u00e9couvrir Ibagu\u00e9 entre nature, culture et aventure.",
+    sportsIntro: "Sites sportifs, terrains et espaces pour rester actif en ville.",
+    phone: "T\u00e9l."
   }
 };
 
@@ -359,6 +382,68 @@ const categories = {
   }
 };
 
+const frenchDescriptions = {
+  "Annetts Coffee & Bakery": "Caf\u00e9 et boulangerie situ\u00e9s au premier \u00e9tage du b\u00e2timent Natura 54. Id\u00e9al pour le caf\u00e9, les petits-d\u00e9jeuners, les desserts et la boulangerie.",
+  "Somos Pac\u00edfico": "Situ\u00e9 sur la m\u00eame Calle 54 que Natura 54, c'est l'une des recommandations les plus naturelles pour les h\u00f4tes. Restaurant ax\u00e9 sur les saveurs du Pacifique.",
+  "Toppings Arepas & Drinks": "Option proche et d\u00e9contract\u00e9e pour savourer des arepas, de la restauration rapide et des boissons, parfaite pour un repas simple ou une sortie le soir.",
+  "Don Pedro T\u00edpico Colombiano - Calle 60": "Restaurant de cuisine colombienne traditionnelle, viandes et grillades.",
+  "Salvador y Milagros": "Restaurant de cuisine colombienne, grillades et propositions contemporaines, situ\u00e9 \u00e0 c\u00f4t\u00e9 de Don Pedro.",
+  "9K Coffee Club & Food / 9K Cocina Gourmet": "Restaurant, caf\u00e9 et bar champ\u00eatre sur la route du Ca\u00f1\u00f3n del Combeima.",
+  "Tamales Don Floro": "Sp\u00e9cialiste du tamal du Tolima et de la gastronomie traditionnelle.",
+  "Tamal y Lechona Linda - Plaza de la 28": "Tamales, lechona et cuisine typique du Tolima \u00e0 l'int\u00e9rieur de la Plaza de Mercado La 28.",
+  "Fog\u00f3n del Pollo - Jord\u00e1n": "Poulet r\u00f4ti et repas. Nous recommandons de confirmer l'adresse par t\u00e9l\u00e9phone avant la visite.",
+  "El Patr\u00f3n Liquor Store": "Bonne option lorsque l'h\u00f4te souhaite prendre un verre, partager un moment et profiter de l'ambiance nocturne sans s'\u00e9loigner de Natura 54.",
+  "Empireo Gastrobar": "Alternative pour ceux qui recherchent une exp\u00e9rience restaurant et gastrobar avec plats, boissons et cocktails.",
+  "Acqua Power Center": "Id\u00e9al pour boutiques, restaurants, caf\u00e9s, divertissement et achats vari\u00e9s. Tr\u00e8s pratique gr\u00e2ce \u00e0 sa proximit\u00e9 de Natura 54.",
+  "Surtiplaza - Acqua": "Supermarch\u00e9 pour courses, boissons, produits d'hygi\u00e8ne et articles du quotidien.",
+  "Centro Comercial Multicentro": "Id\u00e9al pour mode, services, restaurants, supermarch\u00e9 et achats du quotidien. L'une des principales options commerciales du secteur.",
+  "Centro Comercial La Estaci\u00f3n": "Id\u00e9al pour shopping, mode, restaurants, divertissement et pour passer un apr\u00e8s-midi complet.",
+  "Mercacentro No. 4 Av. Guabinal": "Id\u00e9al pour courses, boissons, snacks, produits d'hygi\u00e8ne et tout le n\u00e9cessaire pendant le s\u00e9jour.",
+  "Paseo Comercial Arkacentro": "Id\u00e9al pour achats rapides, commerces, services et pour compl\u00e9ter une visite dans la zone des centres commerciaux.",
+  "Tienda D1 Distrito 60": "Supermarch\u00e9 discount pour achats rapides et produits de base.",
+  "Droguer\u00eda La Rebaja Plus - La 60": "Pharmacie et petit march\u00e9 proche de la Calle 60.",
+  "Panader\u00eda Morata": "Boulangerie traditionnelle situ\u00e9e derri\u00e8re Mercacentro #4.",
+  "Estaci\u00f3n de Servicio Terpel Guabinal": "Carburant et services pour v\u00e9hicules.",
+  "Estaci\u00f3n de Servicio Texaco - Piedra Pintada": "Station-service proche du secteur de Natura 54.",
+  "Ca\u00f1\u00f3n del Combeima": "L'un des plans incontournables d'Ibagu\u00e9. Un corridor naturel vers Juntas et les contreforts du Nevado del Tolima, avec montagnes, rivi\u00e8re, cascades, points de vue et gastronomie locale.",
+  "Jard\u00edn Bot\u00e1nico San Jorge": "R\u00e9serve naturelle d'environ 60 hectares dans les collines d'Ibagu\u00e9, avec sentiers de for\u00eat subandine et collections d'orchid\u00e9es, brom\u00e9liac\u00e9es, palmiers, h\u00e9liconias et plantes m\u00e9dicinales.",
+  "Museo Pan\u00f3ptico de Ibagu\u00e9": "L'ancien complexe p\u00e9nitentiaire a \u00e9t\u00e9 restaur\u00e9 et transform\u00e9 en mus\u00e9e et espace culturel, en conservant son architecture en forme de croix.",
+  "Parque Ecol\u00f3gico La Martinica": "Un plan pour ceux qui veulent profiter de la montagne sans trop s'\u00e9loigner d'Ibagu\u00e9, avec randonn\u00e9es, parcours \u00e9cologiques, points de vue naturels, cascades et v\u00e9g\u00e9tation.",
+  "Catedral Inmaculada Concepci\u00f3n - Plaza de Bol\u00edvar": "Cath\u00e9drale principale d'Ibagu\u00e9 et l'un des lieux religieux et architecturaux embl\u00e9matiques du centre historique.",
+  "Parque Caik\u00e9": "Parc th\u00e9matique et culturel avec attractions, activit\u00e9s familiales et espaces r\u00e9cr\u00e9atifs.",
+  "Playa Hawai": "Parc r\u00e9cr\u00e9atif et aquatique avec piscines, toboggans, piscine-plage et h\u00e9bergement.",
+  "Complejo de Piscinas Ol\u00edmpicas - Unidad Deportiva de la Calle 42": "Site pour la natation et les activit\u00e9s aquatiques.",
+  "Parque Deportivo de Ibagu\u00e9": "Grand complexe sportif avec espaces pour athl\u00e9tisme, football, tennis, patinage, BMX, piscines et autres disciplines.",
+  "Estadio Manuel Murillo Toro": "Principal stade de football de la ville et domicile du Deportes Tolima.",
+  "Canchas Sint\u00e9ticas La Estaci\u00f3n": "Terrains de football synth\u00e9tiques \u00e0 l'int\u00e9rieur du Centro Comercial La Estaci\u00f3n.",
+  "Canchas Sint\u00e9ticas El Tri\u00e1ngulo": "Autre option proche de Natura 54 pour jouer au football.",
+  "The Synthetic / Canchas de la 64": "Terrains de football dans le secteur Jord\u00e1n.",
+  "Parque Centenario": "Parc urbain pour marcher ou faire de l'activit\u00e9 physique. On y trouve aussi la Concha Ac\u00fastica Garz\u00f3n y Collazos."
+};
+
+const frenchDetails = {
+  "Ca\u00f1\u00f3n del Combeima": [
+    "Depuis Natura 54 : environ 30-45 min vers Juntas",
+    "Id\u00e9al pour : nature, photographie, randonn\u00e9es et passer une demi-journ\u00e9e ou une journ\u00e9e compl\u00e8te.",
+    "Recommandation Natura : partir t\u00f4t, parcourir Juntas, visiter un point de vue et d\u00e9jeuner avec une cuisine typique de la zone."
+  ],
+  "Jard\u00edn Bot\u00e1nico San Jorge": [
+    "Depuis Natura 54 : environ 15-25 min",
+    "Id\u00e9al pour : couples, familles, photographie et \u00e9cotourisme.",
+    "\u00c0 faire : randonn\u00e9e, observation de la flore et de la faune, visite de points de vue et d\u00e9connexion du rythme de la ville."
+  ],
+  "Museo Pan\u00f3ptico de Ibagu\u00e9": [
+    "Depuis Natura 54 : environ 15-20 min",
+    "Id\u00e9al pour : culture, architecture, histoire et photographie.",
+    "Plan recommand\u00e9 : le combiner avec une visite du centre traditionnel, de la Plaza de Bol\u00edvar et d'autres lieux historiques."
+  ],
+  "Parque Ecol\u00f3gico La Martinica": [
+    "Depuis Natura 54 : environ 20-30 min jusqu'au secteur d'acc\u00e8s",
+    "Id\u00e9al pour : randonneurs, amis, couples et voyageurs aventureux.",
+    "Recommandation : porter des chaussures adapt\u00e9es, apporter de l'eau et faire les parcours de pr\u00e9f\u00e9rence le matin."
+  ]
+};
+
 let currentLanguage = "es";
 let currentCategory = "";
 
@@ -372,6 +457,22 @@ function mapUrl(place) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.address} Ibagu\u00e9 Tolima`)}`;
 }
 
+function placeDescription(place) {
+  if (currentLanguage === "fr" && frenchDescriptions[place.name]) {
+    return frenchDescriptions[place.name];
+  }
+
+  return place[currentLanguage] || place.en || place.es;
+}
+
+function placeDetails(place) {
+  if (currentLanguage === "fr" && frenchDetails[place.name]) {
+    return frenchDetails[place.name];
+  }
+
+  return place.details ? place.details[currentLanguage] || place.details.en || place.details.es : null;
+}
+
 function translatePage() {
   document.documentElement.lang = currentLanguage;
   document.querySelectorAll("[data-i18n]").forEach((node) => {
@@ -379,6 +480,7 @@ function translatePage() {
     node.textContent = translations[currentLanguage][key];
   });
   languageToggle.textContent = currentLanguage.toUpperCase();
+  setCategoryCounts();
   renderRecommendations();
 }
 
@@ -402,7 +504,7 @@ function renderRecommendations() {
   const category = categories[currentCategory];
   const copy = translations[currentLanguage];
   const cards = category.places
-    .map((place) => {
+    .map((place, index) => {
       const meta = [
         place.address ? `\u{1F4CD} ${place.address}` : "",
         place.rating ? `\u2B50 ${place.rating}` : "",
@@ -412,19 +514,20 @@ function renderRecommendations() {
         .map((item) => `<span>${item}</span>`)
         .join("");
 
-      const details = place.details
-        ? `<ul class="details">${place.details[currentLanguage].map((item) => `<li>${item}</li>`).join("")}</ul>`
+      const detailItems = placeDetails(place);
+      const details = detailItems
+        ? `<ul class="details">${detailItems.map((item) => `<li>${item}</li>`).join("")}</ul>`
         : "";
 
       return `
-        <article class="place-card">
+        <article class="place-card" style="--delay: ${Math.min(index * 55, 420)}ms">
           <a class="place-image ${currentCategory}" href="${mapUrl(place)}" target="_blank" rel="noreferrer" aria-label="${copy.map}: ${place.name}">
             <span aria-hidden="true">${place.icon}</span>
           </a>
           <div class="place-body">
             <h3>${place.name}</h3>
             <div class="meta">${meta}</div>
-            <p class="description">${place[currentLanguage]}</p>
+            <p class="description">${placeDescription(place)}</p>
             ${details}
             <a class="map-link" href="${mapUrl(place)}" target="_blank" rel="noreferrer">${copy.map}</a>
           </div>
@@ -442,6 +545,23 @@ function renderRecommendations() {
   `;
 }
 
+function setCategoryCounts() {
+  document.querySelectorAll("[data-category]").forEach((button) => {
+    const category = button.dataset.category;
+    const count = categories[category].places.length;
+    let countNode = button.querySelector(".choice-count");
+
+    if (!countNode) {
+      countNode = document.createElement("small");
+      countNode.className = "choice-count";
+      button.append(countNode);
+    }
+
+    countNode.textContent = count;
+    countNode.setAttribute("aria-label", `${count} lugares`);
+  });
+}
+
 document.querySelectorAll("[data-language]").forEach((button) => {
   button.addEventListener("click", () => showGuide(button.dataset.language));
 });
@@ -453,7 +573,9 @@ document.querySelector("#backToLanguage").addEventListener("click", () => {
 });
 
 languageToggle.addEventListener("click", () => {
-  currentLanguage = currentLanguage === "es" ? "en" : "es";
+  const languages = ["es", "en", "fr"];
+  const currentIndex = languages.indexOf(currentLanguage);
+  currentLanguage = languages[(currentIndex + 1) % languages.length];
   translatePage();
 });
 
@@ -471,4 +593,5 @@ document.querySelectorAll("[data-category]").forEach((button) => {
   });
 });
 
+setCategoryCounts();
 renderRecommendations();
