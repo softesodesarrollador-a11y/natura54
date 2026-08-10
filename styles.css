@@ -58,6 +58,7 @@ a {
 .screen {
   display: none;
   min-height: 100vh;
+  min-height: 100svh;
   padding: max(24px, env(safe-area-inset-top)) 18px max(28px, env(safe-area-inset-bottom));
 }
 
@@ -70,16 +71,18 @@ a {
   align-content: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(145deg, #41594d, #9bb2a2 58%, #d7dfd6);
+  padding-bottom: calc(118px + env(safe-area-inset-bottom));
+  background: #111;
 }
 
 .language-screen::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("assets/natura-54-portada-azul.png") center / cover no-repeat;
-  filter: grayscale(1) contrast(1.08) brightness(0.76);
-  transform: scale(1.04);
+  background: url("assets/natura-54-portada-azul.png") center 18% / cover no-repeat;
+  filter: grayscale(1) contrast(1.18) brightness(0.86);
+  opacity: 1;
+  transform: scale(1.02);
 }
 
 .language-screen::after {
@@ -87,9 +90,8 @@ a {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(16, 47, 38, 0.62), rgba(16, 47, 38, 0.28)),
-    radial-gradient(circle at 50% 28%, rgba(255, 255, 255, 0.24), transparent 28%),
-    linear-gradient(180deg, rgba(8, 22, 18, 0.18), rgba(8, 22, 18, 0.54));
+    linear-gradient(180deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.08) 48%, rgba(0, 0, 0, 0.46)),
+    radial-gradient(circle at 50% 27%, rgba(255, 255, 255, 0.2), transparent 28%);
 }
 
 .language-screen > * {
@@ -223,16 +225,23 @@ a {
 }
 
 .site-footer {
-  margin: 20px 0 0;
-  padding: 18px 6px 2px;
+  width: fit-content;
+  max-width: calc(100% - 24px);
+  margin: 20px auto 0;
+  padding: 10px 14px;
   color: var(--muted);
   font-size: 0.82rem;
   font-weight: 700;
   text-align: center;
+  border-radius: 999px;
 }
 
 .site-footer--light {
-  color: rgba(255, 255, 255, 0.82);
+  color: rgba(255, 255, 255, 0.94);
+  background: rgba(16, 47, 38, 0.52);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
   text-shadow: 0 1px 12px rgba(0, 0, 0, 0.22);
 }
 
@@ -244,7 +253,7 @@ a {
 }
 
 .site-footer--light a {
-  color: #f6d27d;
+  color: #ffe18a;
   border-bottom-color: rgba(246, 210, 125, 0.62);
 }
 

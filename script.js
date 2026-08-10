@@ -20,6 +20,7 @@ const translations = {
     shoppingIntro: "Compras, supermercados, droguer\u00edas y servicios \u00fatiles durante tu estad\u00eda.",
     tourismIntro: "Planes para descubrir Ibagu\u00e9 entre naturaleza, cultura y aventura.",
     sportsIntro: "Escenarios deportivos, canchas y espacios para moverte en la ciudad.",
+    fromNatura: "Desde Natura 54",
     phone: "Tel."
   },
   en: {
@@ -43,6 +44,7 @@ const translations = {
     shoppingIntro: "Shopping, groceries, pharmacies and useful services during your stay.",
     tourismIntro: "Plans to discover Ibagu\u00e9 through nature, culture and adventure.",
     sportsIntro: "Sports venues, soccer fields and places to stay active in the city.",
+    fromNatura: "From Natura 54",
     phone: "Phone"
   },
   fr: {
@@ -66,6 +68,7 @@ const translations = {
     shoppingIntro: "Achats, supermarch\u00e9s, pharmacies et services utiles pendant votre s\u00e9jour.",
     tourismIntro: "Des plans pour d\u00e9couvrir Ibagu\u00e9 entre nature, culture et aventure.",
     sportsIntro: "Sites sportifs, terrains et espaces pour rester actif en ville.",
+    fromNatura: "Depuis Natura 54",
     phone: "T\u00e9l."
   }
 };
@@ -421,6 +424,83 @@ const frenchDescriptions = {
   "Parque Centenario": "Parc urbain pour marcher ou faire de l'activit\u00e9 physique. On y trouve aussi la Concha Ac\u00fastica Garz\u00f3n y Collazos."
 };
 
+const englishDescriptions = {
+  "Annetts Coffee & Bakery": "Coffee shop and bakery located on the first floor of the Natura 54 building. Ideal for breakfast, coffee, bakery products, desserts and a quiet moment without needing to leave the building.",
+  "Toppings Arepas & Drinks": "A casual option for arepas, quick food and drinks. Recommended for an easy meal, sharing with friends or grabbing something at night.",
+  "El Patr\u00f3n Liquor Store": "A bar and liquor store very close to Natura 54. Ideal for having a drink, sharing and enjoying a night atmosphere without going far from the accommodation.",
+  "Somos Pac\u00edfico": "Restaurant focused on flavors and preparations inspired by Colombia's Pacific cuisine. Its location makes it one of the closest and most convenient dining options for Natura 54 guests.",
+  "Salvador y Milagros": "Colombian cuisine restaurant combining traditional dishes, grill and contemporary proposals. An excellent option for lunch, dinner and special occasions.",
+  "Don Pedro T\u00edpico Colombiano": "Restaurant specializing in traditional Colombian cuisine, meats and grilled dishes. A good option for enjoying classic dishes in a family-friendly atmosphere.",
+  "Tamal y Lechona Linda - Plaza de la 28": "A place to enjoy tamal, lechona and other traditional Tolima flavors inside one of the city's traditional commercial areas.",
+  "Empireo Gastrobar": "Gastrobar with a restaurant, drinks and cocktail concept. Recommended for guests looking for food with a modern and social atmosphere.",
+  "Tamales Don Floro": "Known for tamales and traditional preparations. A recommended option to try one of Tolima's most representative flavors.",
+  "9K Coffee Club & Food": "Countryside restaurant, coffee shop and bar located on the route to the Combeima Canyon. A good option to combine food, scenery and a trip outside the urban area.",
+  "Fog\u00f3n del Pollo - Jord\u00e1n": "Restaurant specializing in roasted chicken and traditional meals. A practical option for lunch or dinner in the Jord\u00e1n area.",
+  "Centro Comercial La Estaci\u00f3n": "One of Ibagu\u00e9's main shopping centers. It has stores, restaurants, a food court, entertainment, services and several options for spending a full afternoon.",
+  "Centro Comercial Multicentro": "Shopping center with stores, restaurants, services, entertainment and several options for shopping during your stay.",
+  "Mercacentro No. 4 - Avenida Guabinal": "Recommended supermarket for groceries, drinks, snacks, toiletries and other products needed during the stay.",
+  "Surtiplaza - Acqua": "Supermarket where you can find food, drinks, toiletries, household items and different products needed during a stay at Natura 54.",
+  "Acqua Power Center": "Commercial complex very close to Natura 54 with restaurants, caf\u00e9s, stores, services and different shopping and entertainment options.",
+  "Paseo Comercial Arkacentro": "Commercial promenade with businesses, restaurants and different services. It can easily complement a visit to the Calle 60 shopping area.",
+  "Tienda D1 - Distrito 60": "Discount supermarket recommended for quick purchases of food, drinks, basic products and items needed during the stay.",
+  "Panader\u00eda Morata": "Traditional bakery with bread, pastries, breakfast options, drinks and products that pair well with coffee.",
+  "Estaci\u00f3n de Servicio Terpel - Guabinal": "Gas station for fuel and basic vehicle services. A convenient option thanks to its proximity to Natura 54.",
+  "Estaci\u00f3n de Servicio Texaco - Piedra Pintada": "Gas station located in the Piedra Pintada area, convenient for guests traveling by private vehicle.",
+  "Droguer\u00eda La Rebaja Plus - La 60": "Pharmacy and small market for medicine, personal care products and different essential items.",
+  "Ca\u00f1\u00f3n del Combeima": "One of Ibagu\u00e9's main natural attractions. It is a corridor surrounded by mountains, river, waterfalls, viewpoints, restaurants and characteristic regional landscapes.",
+  "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9": "The city's main Catholic church and one of the architectural landmarks of Ibagu\u00e9's historic center.",
+  "Jard\u00edn Bot\u00e1nico San Jorge": "A natural reserve of approximately 60 hectares located in the hills of Ibagu\u00e9, with trails and different plant collections.",
+  "Museo Pan\u00f3ptico de Ibagu\u00e9": "Former prison complex restored and transformed into a museum and cultural space. It preserves its distinctive architecture and shares part of the city's history.",
+  "Parque Ecol\u00f3gico La Martinica": "A natural option for those who want to enjoy the mountains without going too far from the city, with hiking, viewpoints, vegetation and ecological routes.",
+  "Playa Hawai": "Recreational and vacation water park with pools, aquatic areas, recreational activities, food options and lodging.",
+  "Parque Caik\u00e9": "Theme, recreational and cultural park with family experiences, water areas and activities inspired by the identity of the department.",
+  "Unidad Deportiva de la Calle 42": "Important sports venue in Ibagu\u00e9 with spaces for different disciplines. Its facilities include the swimming pool complex for swimming and aquatic activities.",
+  "Parque Centenario": "Traditional urban park in Ibagu\u00e9 recommended for walking, exploring its paths and doing physical activity. The Garz\u00f3n y Collazos acoustic shell is located nearby.",
+  "Parque Deportivo de Ibagu\u00e9": "One of the city's most important sports complexes, with venues for soccer, athletics, BMX, tennis, aquatic activities and other disciplines.",
+  "Estadio Manuel Murillo Toro": "Ibagu\u00e9's main soccer stadium and a reference sports venue in the city. It is the regular home of Deportes Tolima and hosts different sports events.",
+  "The Synthetic - Canchas de la 64": "Synthetic field complex mainly used for soccer, located in the Jord\u00e1n area.",
+  "Canchas Sint\u00e9ticas El Tri\u00e1ngulo": "Synthetic soccer fields in a relatively close area to Natura 54. A practical option for guests who want to play during their stay.",
+  "Canchas Sint\u00e9ticas La Estaci\u00f3n": "Synthetic soccer fields inside Centro Comercial La Estaci\u00f3n, allowing guests to combine sports with restaurants, shopping and entertainment."
+};
+
+const englishDetails = {
+  "Ca\u00f1\u00f3n del Combeima": [
+    "Ideal for: nature, photography, walks and half-day or full-day plans.",
+    "What to do: travel the road toward Juntas, visit viewpoints, explore natural attractions and enjoy local food.",
+    "Natura recommendation: leave in the morning and use the route to visit Juntas and enjoy typical food."
+  ],
+  "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9": [
+    "Ideal for: architecture, culture, history and downtown walks.",
+    "What to do: visit the Cathedral, walk around Plaza de Bol\u00edvar and continue through different historic center sites.",
+    "Natura recommendation: combine the visit with the Pan\u00f3ptico and other cultural attractions downtown."
+  ],
+  "Jard\u00edn Bot\u00e1nico San Jorge": [
+    "Ideal for: couples, families, photography and ecotourism.",
+    "What to do: hiking, flora and fauna observation, viewpoint routes and contact with nature.",
+    "Natura recommendation: wear comfortable clothes, bring water and set aside several hours to explore calmly."
+  ],
+  "Museo Pan\u00f3ptico de Ibagu\u00e9": [
+    "Ideal for: culture, architecture, history and photography.",
+    "What to do: tour its facilities, exhibitions and cultural spaces.",
+    "Natura recommendation: combine the visit with Plaza de Bol\u00edvar and the traditional downtown area."
+  ],
+  "Parque Ecol\u00f3gico La Martinica": [
+    "Ideal for: hikers, friends, couples and adventurous travelers.",
+    "What to do: ecological walks, landscape viewing and photography.",
+    "Natura recommendation: wear appropriate shoes, bring water and prefer morning routes."
+  ],
+  "Playa Hawai": [
+    "Ideal for: families, couples, groups of friends and full-day plans.",
+    "What to do: enjoy the pools, aquatic areas and different recreational spaces.",
+    "Natura recommendation: plan the visit as a half-day or full-day activity."
+  ],
+  "Parque Caik\u00e9": [
+    "Ideal for: families, children, couples and groups.",
+    "What to do: enjoy water experiences, recreational activities, themed routes and cultural spaces.",
+    "Natura recommendation: check schedules and rates before going, especially on weekends and holidays."
+  ]
+};
+
 const frenchDetails = {
   "Ca\u00f1\u00f3n del Combeima": [
     "Depuis Natura 54 : environ 30-45 min vers Juntas",
@@ -444,6 +524,361 @@ const frenchDetails = {
   ]
 };
 
+function recommendation({ icon, name, address, rating, distance, phone, description, details }) {
+  const item = {
+    icon,
+    name,
+    address,
+    rating,
+    distance,
+    phone,
+    es: description,
+    en: description,
+    fr: frenchDescriptions[name] || description
+  };
+
+  if (details) {
+    item.details = {
+      es: details,
+      en: details,
+      fr: frenchDetails[name] || details
+    };
+  }
+
+  return item;
+}
+
+categories.gastronomy.places = [
+  recommendation({
+    icon: "\u2615",
+    name: "Annetts Coffee & Bakery",
+    address: "Calle 54 #7B-48, Rinc\u00f3n de Piedra Pintada",
+    rating: "5.0 / 5",
+    distance: "0 km · En el mismo edificio",
+    phone: "322 888 7047",
+    description: "Caf\u00e9 y panader\u00eda ubicado en el primer piso del Edificio Natura 54. Una alternativa ideal para desayunar, tomar caf\u00e9, disfrutar productos de panader\u00eda, postres y compartir un momento tranquilo sin necesidad de desplazarse."
+  }),
+  recommendation({
+    icon: "\u{1FAD3}",
+    name: "Toppings Arepas & Drinks",
+    address: "Edificio Maros, Calle 56 #7C-05",
+    rating: "5.0 / 5",
+    distance: "Aprox. 300 m · 4 min caminando",
+    phone: "316 494 8423",
+    description: "Una opci\u00f3n informal para disfrutar arepas, comida r\u00e1pida y bebidas. Recomendada para una comida casual, compartir con amigos o comer algo durante la noche."
+  }),
+  recommendation({
+    icon: "\u{1F378}",
+    name: "El Patr\u00f3n Liquor Store",
+    address: "Calle 53 #7B-55",
+    rating: "4.9 / 5",
+    distance: "Aprox. 200 m · 2-3 min caminando",
+    description: "Bar y liquor store muy cercano a Natura 54. Una alternativa ideal para tomar algo, compartir y disfrutar de un ambiente nocturno sin alejarse del alojamiento."
+  }),
+  recommendation({
+    icon: "\u{1F41F}",
+    name: "Somos Pac\u00edfico",
+    address: "Calle 54 #7B-05",
+    rating: "4.8 / 5",
+    distance: "Aprox. 100 m · 1-2 min caminando",
+    description: "Restaurante enfocado en sabores y preparaciones inspiradas en la gastronom\u00eda del Pac\u00edfico colombiano. Su ubicaci\u00f3n lo convierte en una de las alternativas gastron\u00f3micas m\u00e1s cercanas y c\u00f3modas para los hu\u00e9spedes de Natura 54."
+  }),
+  recommendation({
+    icon: "\u{1F37D}\uFE0F",
+    name: "Salvador y Milagros",
+    address: "Avenida 60 #13A-33, sector Vivero 60 / Arkam\u00f3nica",
+    rating: "4.8 / 5",
+    distance: "Aprox. 1 km · 4-6 min en carro",
+    phone: "324 685 4865",
+    description: "Restaurante de cocina colombiana que combina preparaciones tradicionales, parrilla y propuestas contempor\u00e1neas. Una excelente alternativa para almuerzos, cenas y ocasiones especiales."
+  }),
+  recommendation({
+    icon: "\u{1F377}",
+    name: "Don Pedro T\u00edpico Colombiano",
+    address: "Avenida 60 #13A-33",
+    rating: "4.8 / 5",
+    distance: "Aprox. 1 km · 4-6 min en carro",
+    phone: "301 668 4147",
+    description: "Restaurante especializado en gastronom\u00eda t\u00edpica colombiana, carnes y preparaciones a la parrilla. Una opci\u00f3n para disfrutar platos tradicionales en un ambiente familiar."
+  }),
+  recommendation({
+    icon: "\u{1F372}",
+    name: "Tamal y Lechona Linda - Plaza de la 28",
+    address: "Plaza de Mercado La 28, Carrera 4H entre calles 28 y 29",
+    rating: "4.8 / 5",
+    distance: "Aprox. 3.5 km · 12-15 min en carro",
+    phone: "321 394 0466",
+    description: "Alternativa para disfrutar tamal, lechona y otros sabores tradicionales del Tolima dentro de uno de los sectores comerciales tradicionales de la ciudad."
+  }),
+  recommendation({
+    icon: "\u{1F37D}\uFE0F",
+    name: "Empireo Gastrobar",
+    address: "Carrera 7C #51-06",
+    rating: "4.7 / 5",
+    distance: "Aprox. 500 m · 6-8 min caminando / 3 min en carro",
+    phone: "313 752 2523",
+    description: "Gastrobar con propuesta de restaurante, bebidas y cocteler\u00eda. Recomendado para quienes buscan una experiencia gastron\u00f3mica acompa\u00f1ada de un ambiente moderno y social."
+  }),
+  recommendation({
+    icon: "\u{1F372}",
+    name: "Tamales Don Floro",
+    address: "Calle 34 #4A-19",
+    rating: "4.7 / 5",
+    distance: "Aprox. 3 km · 10-12 min en carro",
+    phone: "314 409 2122",
+    description: "Establecimiento reconocido por sus tamales y preparaciones tradicionales. Una alternativa recomendada para conocer uno de los sabores m\u00e1s representativos de la gastronom\u00eda tolimense."
+  }),
+  recommendation({
+    icon: "\u2615",
+    name: "9K Coffee Club & Food",
+    address: "Kil\u00f3metro 9, v\u00eda al Ca\u00f1\u00f3n del Combeima, sector Puerto Per\u00fa",
+    rating: "4.7 / 5",
+    distance: "Aprox. 12 km · 25-35 min en carro",
+    phone: "317 214 4372",
+    description: "Restaurante, caf\u00e9 y bar campestre ubicado en la ruta hacia el Ca\u00f1\u00f3n del Combeima. Una alternativa para combinar gastronom\u00eda, paisaje y un recorrido fuera de la zona urbana."
+  }),
+  recommendation({
+    icon: "\u{1F414}",
+    name: "Fog\u00f3n del Pollo - Jord\u00e1n",
+    address: "Avenida Guabinal con Calle 65, sector Jord\u00e1n 9 etapa",
+    rating: "4.5 / 5",
+    distance: "Aprox. 1.8 km · 6-8 min en carro",
+    phone: "310 674 7609",
+    description: "Restaurante especializado en pollo asado y comidas tradicionales. Una alternativa pr\u00e1ctica para almorzar o cenar en el sector del Jord\u00e1n."
+  })
+];
+
+categories.shopping.places = [
+  recommendation({
+    icon: "\u{1F6CD}\uFE0F",
+    name: "Centro Comercial La Estaci\u00f3n",
+    address: "Calle 60 #12-224",
+    rating: "4.6 / 5",
+    distance: "Aprox. 1.5 km · 5-8 min en carro",
+    phone: "608 270 7536",
+    description: "Uno de los principales centros comerciales de Ibagu\u00e9. Cuenta con tiendas, restaurantes, plazoleta de comidas, entretenimiento, servicios y diferentes alternativas para pasar una tarde completa."
+  }),
+  recommendation({
+    icon: "\u{1F6D2}",
+    name: "Centro Comercial Multicentro",
+    address: "Carrera 5 #60-123",
+    rating: "4.5 / 5",
+    distance: "Aprox. 1 km · 4-6 min en carro",
+    phone: "608 274 3366",
+    description: "Centro comercial con tiendas, restaurantes, servicios, entretenimiento y diferentes opciones para realizar compras durante la estad\u00eda."
+  }),
+  recommendation({
+    icon: "\u{1F6D2}",
+    name: "Mercacentro No. 4 - Avenida Guabinal",
+    address: "Avenida Guabinal #51-53",
+    rating: "4.5 / 5",
+    distance: "Aprox. 500 m · 6-8 min caminando / 3 min en carro",
+    phone: "608 515 6156",
+    description: "Supermercado recomendado para realizar mercado y comprar bebidas, snacks, art\u00edculos de aseo y otros productos necesarios durante la estad\u00eda."
+  }),
+  recommendation({
+    icon: "\u{1F6D2}",
+    name: "Surtiplaza - Acqua",
+    address: "Centro Comercial Acqua Power Center, sector Calle 60",
+    rating: "4.5 / 5",
+    distance: "Aprox. 700 m · 3-5 min en carro",
+    phone: "315 363 6524",
+    description: "Supermercado donde encontrar\u00e1s alimentos, bebidas, productos de aseo, art\u00edculos para el hogar y diferentes productos necesarios durante una estad\u00eda en Natura 54."
+  }),
+  recommendation({
+    icon: "\u{1F6CD}\uFE0F",
+    name: "Acqua Power Center",
+    address: "Calle 60 #8-37",
+    rating: "4.4 / 5",
+    distance: "Aprox. 700 m · 10 min caminando / 3-5 min en carro",
+    phone: "608 279 5171",
+    description: "Complejo comercial muy cercano a Natura 54 que re\u00fane restaurantes, caf\u00e9s, tiendas, servicios y diferentes alternativas para compras y entretenimiento."
+  }),
+  recommendation({
+    icon: "\u{1F6CD}\uFE0F",
+    name: "Paseo Comercial Arkacentro",
+    address: "Carrera 5 #64A-15",
+    rating: "4.3 / 5",
+    distance: "Aprox. 1.2 km · 5-7 min en carro",
+    description: "Paseo comercial con establecimientos, restaurantes y diferentes servicios. Puede complementar f\u00e1cilmente una visita a la zona comercial de la Calle 60."
+  }),
+  recommendation({
+    icon: "\u{1F6D2}",
+    name: "Tienda D1 - Distrito 60",
+    address: "Sector Calle 60, Prados del Norte",
+    rating: "4.3 / 5",
+    distance: "Aprox. 1 km · 4-6 min en carro",
+    description: "Supermercado de descuento recomendado para realizar compras r\u00e1pidas de alimentos, bebidas, productos b\u00e1sicos y art\u00edculos necesarios durante la estad\u00eda."
+  }),
+  recommendation({
+    icon: "\u{1F956}",
+    name: "Panader\u00eda Morata",
+    address: "Sector cercano a Mercacentro No. 4, Avenida Guabinal",
+    rating: "4.3 / 5",
+    distance: "Aprox. 600 m · 8-10 min caminando / 3-5 min en carro",
+    description: "Panader\u00eda tradicional con opciones de panader\u00eda, pasteler\u00eda, desayunos, bebidas y productos ideales para acompa\u00f1ar un caf\u00e9."
+  }),
+  recommendation({
+    icon: "\u26FD",
+    name: "Estaci\u00f3n de Servicio Terpel - Guabinal",
+    address: "Avenida Guabinal con Calle 60",
+    rating: "4.3 / 5",
+    distance: "Aprox. 1 km · 4-6 min en carro",
+    description: "Estaci\u00f3n de servicio para abastecimiento de combustible y servicios b\u00e1sicos para veh\u00edculos. Una alternativa conveniente por su cercan\u00eda con Natura 54."
+  }),
+  recommendation({
+    icon: "\u26FD",
+    name: "Estaci\u00f3n de Servicio Texaco - Piedra Pintada",
+    address: "Avenida Guabinal #64-66",
+    rating: "4.3 / 5",
+    distance: "Aprox. 1.2 km · 4-6 min en carro",
+    description: "Estaci\u00f3n de combustible ubicada en el sector de Piedra Pintada, conveniente para hu\u00e9spedes que se movilizan en veh\u00edculo particular."
+  }),
+  recommendation({
+    icon: "\u{1F48A}",
+    name: "Droguer\u00eda La Rebaja Plus - La 60",
+    address: "Carrera 6 #59-29",
+    rating: "3.1 / 5",
+    distance: "Aprox. 800 m · 3-5 min en carro",
+    phone: "317 300 4444",
+    description: "Droguer\u00eda y minimercado para medicamentos, productos de cuidado personal y diferentes art\u00edculos de primera necesidad."
+  })
+];
+
+categories.tourism.places = [
+  recommendation({
+    icon: "\u{1F304}",
+    name: "Ca\u00f1\u00f3n del Combeima",
+    address: "V\u00eda al Ca\u00f1\u00f3n del Combeima",
+    rating: "4.7 / 5",
+    distance: "Aprox. 15 km · 30-45 min en carro",
+    phone: "316 532 3648",
+    description: "Uno de los principales atractivos naturales de Ibagu\u00e9. Es un corredor rodeado de monta\u00f1as, r\u00edo, cascadas, miradores, restaurantes y paisajes caracter\u00edsticos de la regi\u00f3n.",
+    details: ["Ideal para: naturaleza, fotograf\u00eda, caminatas y planes de medio d\u00eda o d\u00eda completo.", "Qu\u00e9 hacer: recorrer la v\u00eda hacia Juntas, visitar miradores, conocer atractivos naturales y disfrutar la gastronom\u00eda de la zona.", "Recomendaci\u00f3n Natura: salir durante la ma\u00f1ana y aprovechar el recorrido para conocer Juntas y disfrutar comida t\u00edpica."]
+  }),
+  recommendation({
+    icon: "\u26EA",
+    name: "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9",
+    address: "Plaza de Bol\u00edvar, Centro de Ibagu\u00e9",
+    rating: "4.7 / 5",
+    distance: "Aprox. 4.5 km · 15-20 min en carro",
+    phone: "608 263 3451",
+    description: "Principal templo cat\u00f3lico de la ciudad y uno de los referentes arquitect\u00f3nicos del centro hist\u00f3rico de Ibagu\u00e9.",
+    details: ["Ideal para: arquitectura, cultura, historia y recorridos por el centro.", "Qu\u00e9 hacer: conocer la Catedral, recorrer la Plaza de Bol\u00edvar y continuar caminando por sitios del centro hist\u00f3rico.", "Recomendaci\u00f3n Natura: combinar la visita con el Pan\u00f3ptico y otros atractivos culturales del centro."]
+  }),
+  recommendation({
+    icon: "\u{1F33F}",
+    name: "Jard\u00edn Bot\u00e1nico San Jorge",
+    address: "V\u00eda Las Nieves",
+    rating: "4.6 / 5",
+    distance: "Aprox. 4 km · 15-25 min en carro",
+    phone: "313 378 3055",
+    description: "Reserva natural de aproximadamente 60 hect\u00e1reas ubicada en los cerros de Ibagu\u00e9, con senderos y diferentes colecciones de flora.",
+    details: ["Ideal para: parejas, familias, fotograf\u00eda y ecoturismo.", "Qu\u00e9 hacer: senderismo, observaci\u00f3n de flora y fauna, recorridos por miradores y contacto con la naturaleza.", "Recomendaci\u00f3n Natura: llevar ropa c\u00f3moda, hidrataci\u00f3n y dedicar varias horas para recorrer el lugar con tranquilidad."]
+  }),
+  recommendation({
+    icon: "\u{1F3DB}\uFE0F",
+    name: "Museo Pan\u00f3ptico de Ibagu\u00e9",
+    address: "Calle 11 #9-73A",
+    rating: "4.4 / 5",
+    distance: "Aprox. 4 km · 15-20 min en carro",
+    description: "Antiguo complejo penitenciario restaurado y convertido en museo y espacio cultural. Conserva su caracter\u00edstica arquitectura y permite conocer parte de la historia de la ciudad.",
+    details: ["Ideal para: cultura, arquitectura, historia y fotograf\u00eda.", "Qu\u00e9 hacer: recorrer sus instalaciones, exposiciones y espacios culturales.", "Recomendaci\u00f3n Natura: combinar la visita con un recorrido por la Plaza de Bol\u00edvar y el centro tradicional de Ibagu\u00e9."]
+  }),
+  recommendation({
+    icon: "\u{1F94E}",
+    name: "Parque Ecol\u00f3gico La Martinica",
+    address: "Variante Ibagu\u00e9-Armenia",
+    rating: "4.4 / 5",
+    distance: "Aprox. 7 km · 20-30 min en carro",
+    phone: "320 300 0043",
+    description: "Alternativa natural para quienes desean disfrutar de monta\u00f1a sin alejarse demasiado de la ciudad, con senderismo, miradores, vegetaci\u00f3n y recorridos ecol\u00f3gicos.",
+    details: ["Ideal para: senderistas, amigos, parejas y viajeros aventureros.", "Qu\u00e9 hacer: caminatas ecol\u00f3gicas, contemplaci\u00f3n de paisajes y fotograf\u00eda.", "Recomendaci\u00f3n Natura: utilizar calzado adecuado, llevar hidrataci\u00f3n y preferir recorridos durante la ma\u00f1ana."]
+  }),
+  recommendation({
+    icon: "\u{1F3D6}\uFE0F",
+    name: "Playa Hawai",
+    address: "Kil\u00f3metro 22, v\u00eda Ibagu\u00e9-Girardot, Tolima",
+    rating: "4.1 / 5",
+    distance: "Aprox. 22 km · 30-40 min en carro",
+    phone: "305 461 7633",
+    description: "Parque recreacional y vacacional con piscinas, espacios acu\u00e1ticos, actividades recreativas, opciones gastron\u00f3micas y alojamiento.",
+    details: ["Ideal para: familias, parejas, grupos de amigos y planes de d\u00eda completo.", "Qu\u00e9 hacer: disfrutar las piscinas, zonas acu\u00e1ticas y diferentes espacios recreativos.", "Recomendaci\u00f3n Natura: planear la visita como una actividad de medio d\u00eda o d\u00eda completo."]
+  }),
+  recommendation({
+    icon: "\u{1F3A1}",
+    name: "Parque Caik\u00e9",
+    address: "Kil\u00f3metro 15, variante Armenia-Bogot\u00e1, sector Buenos Aires",
+    rating: "4.1 / 5",
+    distance: "Aprox. 18-20 km · 25-35 min en carro",
+    phone: "320 351 9177 / 320 351 9155",
+    description: "Parque tem\u00e1tico, recreativo y cultural con experiencias familiares, espacios acu\u00e1ticos y actividades inspiradas en la identidad del departamento.",
+    details: ["Ideal para: familias, ni\u00f1os, parejas y grupos.", "Qu\u00e9 hacer: disfrutar experiencias acu\u00e1ticas, actividades recreativas, recorridos tem\u00e1ticos y espacios culturales.", "Recomendaci\u00f3n Natura: consultar horarios y tarifas antes de desplazarse, especialmente durante fines de semana y festivos."]
+  })
+];
+
+categories.sports.places = [
+  recommendation({
+    icon: "\u{1F3CA}",
+    name: "Unidad Deportiva de la Calle 42",
+    address: "Carrera 5 #42-06",
+    rating: "4.7 / 5",
+    distance: "Aprox. 1.5-2 km · 6-10 min en carro",
+    description: "Importante escenario deportivo de Ibagu\u00e9 que re\u00fane espacios destinados a diferentes disciplinas. Dentro de sus instalaciones se encuentra el complejo de piscinas para la pr\u00e1ctica de nataci\u00f3n y actividades acu\u00e1ticas."
+  }),
+  recommendation({
+    icon: "\u{1F3DE}\uFE0F",
+    name: "Parque Centenario",
+    address: "Carrera 5 con Calle 8, sector Centro",
+    rating: "4.6 / 5",
+    distance: "Aprox. 4 km · 12-15 min en carro",
+    description: "Parque urbano tradicional de Ibagu\u00e9 recomendado para caminar, recorrer sus senderos y realizar actividad f\u00edsica. En su entorno se encuentra la Concha Ac\u00fastica Garz\u00f3n y Collazos."
+  }),
+  recommendation({
+    icon: "\u{1F3DF}\uFE0F",
+    name: "Parque Deportivo de Ibagu\u00e9",
+    address: "Kil\u00f3metro 1 v\u00eda al Aeropuerto Perales",
+    rating: "4.5 / 5",
+    distance: "Aprox. 5 km · 10-15 min en carro",
+    phone: "608 267 5664",
+    description: "Uno de los complejos deportivos m\u00e1s importantes de la ciudad, con escenarios destinados a f\u00fatbol, atletismo, BMX, tenis, actividades acu\u00e1ticas y otras disciplinas."
+  }),
+  recommendation({
+    icon: "\u26BD",
+    name: "Estadio Manuel Murillo Toro",
+    address: "Calle 37 con Carrera 4",
+    rating: "4.5 / 5",
+    distance: "Aprox. 2.5 km · 8-12 min en carro",
+    description: "Principal estadio de f\u00fatbol de Ibagu\u00e9 y escenario deportivo de referencia en la ciudad. Es la casa habitual del Deportes Tolima y sede de diferentes eventos deportivos."
+  }),
+  recommendation({
+    icon: "\u26BD",
+    name: "The Synthetic - Canchas de la 64",
+    address: "Avenida 64 con Carrera 9, sector Jord\u00e1n",
+    rating: "4.4 / 5",
+    distance: "Aprox. 1.5 km · 5-8 min en carro",
+    phone: "608 260 7072",
+    description: "Complejo de canchas sint\u00e9ticas destinado principalmente a la pr\u00e1ctica de f\u00fatbol, ubicado en el sector del Jord\u00e1n."
+  }),
+  recommendation({
+    icon: "\u26BD",
+    name: "Canchas Sint\u00e9ticas El Tri\u00e1ngulo",
+    address: "Carrera 5 con Calle 43",
+    rating: "4.4 / 5",
+    distance: "Aprox. 1.5 km · 5-8 min en carro",
+    description: "Canchas sint\u00e9ticas para f\u00fatbol ubicadas en un sector relativamente cercano a Natura 54. Una alternativa pr\u00e1ctica para quienes quieren jugar un partido durante su estad\u00eda."
+  }),
+  recommendation({
+    icon: "\u26BD",
+    name: "Canchas Sint\u00e9ticas La Estaci\u00f3n",
+    address: "Centro Comercial La Estaci\u00f3n, tercer piso, Local 3-21",
+    rating: "4.4 / 5",
+    distance: "Aprox. 1.5 km · 5-8 min en carro",
+    phone: "316 040 5671",
+    description: "Canchas de f\u00fatbol sint\u00e9tico ubicadas dentro del Centro Comercial La Estaci\u00f3n, permitiendo combinar actividad deportiva con restaurantes, compras y entretenimiento."
+  })
+];
+
 let currentLanguage = "es";
 let currentCategory = "";
 
@@ -458,6 +893,10 @@ function mapUrl(place) {
 }
 
 function placeDescription(place) {
+  if (currentLanguage === "en" && englishDescriptions[place.name]) {
+    return englishDescriptions[place.name];
+  }
+
   if (currentLanguage === "fr" && frenchDescriptions[place.name]) {
     return frenchDescriptions[place.name];
   }
@@ -466,11 +905,19 @@ function placeDescription(place) {
 }
 
 function placeDetails(place) {
+  if (currentLanguage === "en" && englishDetails[place.name]) {
+    return englishDetails[place.name];
+  }
+
   if (currentLanguage === "fr" && frenchDetails[place.name]) {
     return frenchDetails[place.name];
   }
 
   return place.details ? place.details[currentLanguage] || place.details.en || place.details.es : null;
+}
+
+function ratingValue(place) {
+  return Number.parseFloat(place.rating) || 0;
 }
 
 function translatePage() {
@@ -504,10 +951,13 @@ function renderRecommendations() {
   const category = categories[currentCategory];
   const copy = translations[currentLanguage];
   const cards = category.places
+    .slice()
+    .sort((a, b) => ratingValue(b) - ratingValue(a))
     .map((place, index) => {
       const meta = [
         place.address ? `\u{1F4CD} ${place.address}` : "",
         place.rating ? `\u2B50 ${place.rating}` : "",
+        place.distance ? `${copy.fromNatura}: ${place.distance}` : "",
         place.phone ? `\u260E\uFE0F ${copy.phone} ${place.phone}` : ""
       ]
         .filter(Boolean)
