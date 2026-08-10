@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#102f26" />
+    <title>Natura 54 Experience</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="screen language-screen is-active" id="languageScreen" aria-label="Language selection">
+        <div class="brand-mark" aria-label="Natura 54 logo">
+          <span class="brand-word">NATURA</span>
+          <span class="brand-number">54</span>
+        </div>
+        <div class="language-copy">
+          <p class="eyebrow">Welcome / Bienvenido</p>
+          <h1>Natura 54 Experience</h1>
+          <p>Selecciona tu idioma para empezar tu guía móvil en Ibagué.</p>
+        </div>
+        <div class="language-actions">
+          <button class="language-card" type="button" data-language="es">
+            <span class="flag" aria-hidden="true">🇨🇴</span>
+            <span>
+              <strong>Español</strong>
+              <small>Continuar en español</small>
+            </span>
+          </button>
+          <button class="language-card" type="button" data-language="en">
+            <span class="flag" aria-hidden="true">🇺🇸</span>
+            <span>
+              <strong>English</strong>
+              <small>Continue in English</small>
+            </span>
+          </button>
+        </div>
+      </section>
+
+      <section class="screen guide-screen" id="guideScreen" aria-label="Natura 54 guide">
+        <header class="topbar">
+          <button class="icon-button" id="backToLanguage" type="button" aria-label="Cambiar idioma">‹</button>
+          <div>
+            <span class="mini-label" data-i18n="topLabel">Guía para huéspedes</span>
+            <h1>Natura 54 Experience</h1>
+          </div>
+          <button class="language-pill" id="languageToggle" type="button">ES</button>
+        </header>
+
+        <article class="welcome-panel">
+          <div class="building-photo" role="img" aria-label="Fachada de Natura 54">
+            <div class="building-card">
+              <span>Natura</span>
+              <strong>54</strong>
+            </div>
+          </div>
+          <div class="content-block">
+            <p class="eyebrow" data-i18n="meet">Conoce a Natura 54</p>
+            <h2 data-i18n="welcomeTitle">Bienvenido a Natura 54 Experience 🌿</h2>
+            <p data-i18n="welcomeOne">
+              Tu estadía comienza aquí. Descubre Natura 54, conoce los mejores lugares de Ibagué,
+              encuentra restaurantes, cafés, centros comerciales, planes turísticos y experiencias cerca de ti.
+            </p>
+            <p data-i18n="welcomeTwo">
+              Hemos creado esta guía para que disfrutes la ciudad de una forma fácil, cómoda y especial.
+            </p>
+            <p class="closing" data-i18n="welcomeThree">
+              Explora, descubre y vive Ibagué. Tu experiencia en Natura 54 empieza ahora.
+            </p>
+          </div>
+        </article>
+
+        <section class="location-band" aria-label="Natura 54 location">
+          <div>
+            <span class="mini-label" data-i18n="addressLabel">Dirección</span>
+            <p>Calle 54 # 7B - 48, Ibagué, Tolima</p>
+          </div>
+          <a class="route-button" href="https://www.google.com/maps/search/?api=1&query=Calle%2054%20%237B-48%2C%20Ibagu%C3%A9%2C%20Tolima" target="_blank" rel="noreferrer" data-i18n="route">
+            Cómo llegar
+          </a>
+        </section>
+
+        <section class="explore-section">
+          <button class="primary-action" id="openChoices" type="button" data-i18n="whatToday">
+            ¿Qué quieres hacer hoy?
+          </button>
+          <div class="choice-grid" id="choiceGrid" aria-label="Opciones de experiencia">
+            <button class="choice-button" type="button" data-category="gastronomy">
+              <span>🍽️</span>
+              <strong data-i18n="gastronomy">Gastronomía</strong>
+            </button>
+            <button class="choice-button" type="button" data-category="shopping">
+              <span>🛍️</span>
+              <strong data-i18n="shopping">Comprar</strong>
+            </button>
+            <button class="choice-button" type="button" data-category="tourism">
+              <span>🌄</span>
+              <strong data-i18n="tourism">Turismo</strong>
+            </button>
+          </div>
+        </section>
+
+        <section class="recommendations" id="recommendations" aria-live="polite"></section>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
