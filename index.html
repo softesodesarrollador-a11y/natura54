@@ -3,16 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#102f26" />
+    <meta name="theme-color" content="#7a5433" />
     <title>Natura 54 Experience</title>
-    <link rel="stylesheet" href="styles.css?v=6" />
+    <link rel="stylesheet" href="styles.css?v=29" />
   </head>
   <body>
     <main class="app-shell">
       <section class="screen language-screen is-active" id="languageScreen" aria-label="Language selection">
         <div class="brand-mark" aria-label="Natura 54 logo">
-          <span class="brand-word">NATURA</span>
-          <span class="brand-number">54</span>
+          <img src="assets/logo-natura.png" alt="Natura 54" />
         </div>
         <div class="language-copy">
           <p class="eyebrow">Welcome / Bienvenido / Bienvenue</p>
@@ -58,12 +57,21 @@
         </header>
 
         <article class="welcome-panel">
-          <div class="building-photo" role="img" aria-label="Fachada del apartamento Natura 54">
-            <div class="photo-badge">
-              <span>Natura 54</span>
-              <strong>Calle 54</strong>
-            </div>
+          <section class="hero-actions" aria-label="Acciones principales">
+            <button class="primary-action" id="openChoices" type="button" data-i18n="whatToday">
+              ¿Qué quieres hacer hoy?
+            </button>
+            <a class="secondary-action" href="rooms.html" data-i18n="knowUs">Conócenos</a>
+          </section>
+          <div class="building-photo" aria-label="Fotos de la fachada de Natura 54">
+            <figure class="building-slide">
+              <img src="assets/fachada1.png" alt="Fachada principal de Natura 54" />
+            </figure>
+            <figure class="building-slide">
+              <img src="assets/fachada2.png" alt="Fachada lateral de Natura 54" />
+            </figure>
           </div>
+          <div class="building-hint" data-i18n="photoHint">Desliza para ver más fotos</div>
           <div class="content-block">
             <p class="eyebrow" data-i18n="meet">Conoce a Natura 54</p>
             <h2 data-i18n="welcomeTitle">Bienvenido a Natura 54 Experience 🌿</h2>
@@ -88,38 +96,82 @@
           <a class="route-button" href="https://www.google.com/maps/search/?api=1&query=Calle%2054%20%237B-48%2C%20Ibagu%C3%A9%2C%20Tolima" target="_blank" rel="noreferrer" data-i18n="route">
             Cómo llegar
           </a>
+          <a class="route-button whatsapp-button" href="https://api.whatsapp.com/send?phone=573146788517" target="_blank" rel="noreferrer" data-whatsapp>
+            WhatsApp
+          </a>
         </section>
 
-        <section class="explore-section">
-          <button class="primary-action" id="openChoices" type="button" data-i18n="whatToday">
-            ¿Qué quieres hacer hoy?
-          </button>
-          <div class="choice-grid" id="choiceGrid" aria-label="Opciones de experiencia">
-            <button class="choice-button" type="button" data-category="gastronomy">
-              <span>🍽️</span>
-              <strong data-i18n="gastronomy">Gastronomía</strong>
-            </button>
-            <button class="choice-button" type="button" data-category="shopping">
-              <span>🛍️</span>
-              <strong data-i18n="shopping">Comprar</strong>
-            </button>
-            <button class="choice-button" type="button" data-category="tourism">
-              <span>🌄</span>
-              <strong data-i18n="tourism">Turismo</strong>
-            </button>
-            <button class="choice-button" type="button" data-category="sports">
-              <span>⚽</span>
-              <strong data-i18n="sports">Deportes</strong>
-            </button>
-          </div>
-        </section>
-
-        <section class="recommendations" id="recommendations" aria-live="polite"></section>
         <footer class="site-footer">
           Desarrollado por <a href="https://www.soft-eso.com/" target="_blank" rel="noreferrer">Soft-Eso</a>
         </footer>
       </section>
+
+      <section class="screen choices-screen" id="choicesScreen" aria-label="Opciones de experiencia">
+        <header class="topbar">
+          <button class="icon-button" id="backToGuide" type="button" aria-label="Volver">‹</button>
+          <div>
+            <span class="mini-label" data-i18n="topLabel">Guía para huéspedes</span>
+            <h1 data-i18n="whatToday">¿Qué quieres hacer hoy?</h1>
+          </div>
+          <button class="language-pill" id="choicesLanguageToggle" type="button">ES</button>
+        </header>
+
+        <section class="choices-hero">
+          <p class="eyebrow">Natura 54</p>
+          <h2 data-i18n="chooseTitle">Elige una experiencia</h2>
+          <p data-i18n="chooseText">Selecciona una categoría para ver recomendaciones cercanas y organizadas para tu estadía.</p>
+        </section>
+
+        <div class="choice-grid choice-grid-page" id="choiceGrid" aria-label="Opciones de experiencia">
+          <button class="choice-button choice-gastronomy" type="button" data-category="gastronomy">
+            <span class="choice-icon">🍽️</span>
+            <span class="choice-arrow" aria-hidden="true">›</span>
+            <strong data-i18n="gastronomy">Gastronomía</strong>
+            <p data-i18n="gastronomyChoice">Restaurantes, cafés y sabores que no te puedes perder.</p>
+          </button>
+          <button class="choice-button choice-shopping" type="button" data-category="shopping">
+            <span class="choice-icon">🛍️</span>
+            <span class="choice-arrow" aria-hidden="true">›</span>
+            <strong data-i18n="shopping">Comprar</strong>
+            <p data-i18n="shoppingChoice">Tiendas, mercados y servicios útiles cerca de ti.</p>
+          </button>
+          <button class="choice-button choice-tourism" type="button" data-category="tourism">
+            <span class="choice-icon">🌄</span>
+            <span class="choice-arrow" aria-hidden="true">›</span>
+            <strong data-i18n="tourism">Turismo</strong>
+            <p data-i18n="tourismChoice">Atracciones, naturaleza y planes para explorar Ibagué.</p>
+          </button>
+          <button class="choice-button choice-sports" type="button" data-category="sports">
+            <span class="choice-icon">⚽</span>
+            <span class="choice-arrow" aria-hidden="true">›</span>
+            <strong data-i18n="sports">Deportes</strong>
+            <p data-i18n="sportsChoice">Actividades deportivas y lugares para mantenerte activo.</p>
+          </button>
+        </div>
+
+        <aside class="nearby-note">
+          <span aria-hidden="true">📍</span>
+          <div>
+            <strong data-i18n="nearbyTitle">Recomendaciones cerca de ti</strong>
+            <p data-i18n="nearbyText">Todas las sugerencias están organizadas para que aproveches mejor tu tiempo durante tu hospedaje en Natura 54.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="screen results-screen" id="resultsScreen" aria-label="Recomendaciones">
+        <header class="topbar">
+          <button class="icon-button" id="backToChoices" type="button" aria-label="Volver">‹</button>
+          <div>
+            <span class="mini-label" data-i18n="topLabel">Guía para huéspedes</span>
+            <h1 id="resultsTitle">Recomendaciones</h1>
+          </div>
+          <button class="language-pill" id="resultsLanguageToggle" type="button">ES</button>
+        </header>
+
+        <section class="recommendations" id="recommendations" aria-live="polite"></section>
+      </section>
     </main>
-    <script src="script.js"></script>
+    <script src="whatsapp.js?v=4"></script>
+    <script src="script.js?v=23"></script>
   </body>
 </html>

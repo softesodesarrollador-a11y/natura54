@@ -8,13 +8,24 @@ const translations = {
     welcomeTwo:
       "Hemos creado esta gu\u00eda para que disfrutes la ciudad de una forma f\u00e1cil, c\u00f3moda y especial.",
     welcomeThree: "Explora, descubre y vive Ibagu\u00e9. Tu experiencia en Natura 54 empieza ahora.",
+    photoHint: "Desliza para ver m\u00e1s fotos",
     addressLabel: "Direcci\u00f3n",
     route: "C\u00f3mo llegar",
     whatToday: "\u00bfQu\u00e9 quieres hacer hoy?",
+    chooseTitle: "Elige una experiencia",
+    chooseText: "Selecciona una categor\u00eda para ver recomendaciones cercanas y organizadas para tu estad\u00eda.",
     gastronomy: "Gastronom\u00eda",
     shopping: "Comprar",
     tourism: "Turismo",
     sports: "Deportes",
+    gastronomyChoice: "Restaurantes, caf\u00e9s y sabores que no te puedes perder.",
+    shoppingChoice: "Tiendas, mercados y servicios \u00fatiles cerca de ti.",
+    tourismChoice: "Atracciones, naturaleza y planes para explorar Ibagu\u00e9.",
+    sportsChoice: "Actividades deportivas y lugares para mantenerte activo.",
+    recommendationLabel: "recomendaciones",
+    nearbyTitle: "Recomendaciones cerca de ti",
+    nearbyText: "Todas las sugerencias est\u00e1n organizadas para que aproveches mejor tu tiempo durante tu hospedaje en Natura 54.",
+    knowUs: "Conócenos",
     map: "Ver en Google Maps",
     gastronomyIntro: "Restaurantes, caf\u00e9s, bebidas y sabores recomendados en Ibagu\u00e9.",
     shoppingIntro: "Compras, supermercados, droguer\u00edas y servicios \u00fatiles durante tu estad\u00eda.",
@@ -32,13 +43,24 @@ const translations = {
     welcomeTwo:
       "We created this guide so you can enjoy the city in an easy, comfortable and special way.",
     welcomeThree: "Explore, discover and live Ibagu\u00e9. Your Natura 54 experience starts now.",
+    photoHint: "Swipe to see more photos",
     addressLabel: "Address",
     route: "Get directions",
     whatToday: "What would you like to do today?",
+    chooseTitle: "Choose an experience",
+    chooseText: "Select a category to see nearby recommendations organized for your stay.",
     gastronomy: "Food",
     shopping: "Shopping",
     tourism: "Tourism",
     sports: "Sports",
+    gastronomyChoice: "Restaurants, caf\u00e9s and flavors you should not miss.",
+    shoppingChoice: "Stores, markets and useful services near you.",
+    tourismChoice: "Attractions, nature and plans to explore Ibagu\u00e9.",
+    sportsChoice: "Sports activities and places to stay active.",
+    recommendationLabel: "recommendations",
+    nearbyTitle: "Recommendations near you",
+    nearbyText: "All suggestions are organized so you can make better use of your time during your stay at Natura 54.",
+    knowUs: "Meet us",
     map: "Open in Google Maps",
     gastronomyIntro: "Restaurants, caf\u00e9s, drinks and recommended flavors in Ibagu\u00e9.",
     shoppingIntro: "Shopping, groceries, pharmacies and useful services during your stay.",
@@ -56,13 +78,24 @@ const translations = {
     welcomeTwo:
       "Nous avons cr\u00e9\u00e9 ce guide pour que vous profitiez de la ville de mani\u00e8re simple, confortable et sp\u00e9ciale.",
     welcomeThree: "Explorez, d\u00e9couvrez et vivez Ibagu\u00e9. Votre exp\u00e9rience \u00e0 Natura 54 commence maintenant.",
+    photoHint: "Faites glisser pour voir plus de photos",
     addressLabel: "Adresse",
     route: "Itin\u00e9raire",
     whatToday: "Que voulez-vous faire aujourd'hui ?",
+    chooseTitle: "Choisissez une exp\u00e9rience",
+    chooseText: "S\u00e9lectionnez une cat\u00e9gorie pour voir les recommandations proches organis\u00e9es pour votre s\u00e9jour.",
     gastronomy: "Gastronomie",
     shopping: "Shopping",
     tourism: "Tourisme",
     sports: "Sports",
+    gastronomyChoice: "Restaurants, caf\u00e9s et saveurs \u00e0 ne pas manquer.",
+    shoppingChoice: "Boutiques, march\u00e9s et services utiles pr\u00e8s de vous.",
+    tourismChoice: "Attractions, nature et plans pour explorer Ibagu\u00e9.",
+    sportsChoice: "Activit\u00e9s sportives et lieux pour rester actif.",
+    recommendationLabel: "recommandations",
+    nearbyTitle: "Recommandations pr\u00e8s de vous",
+    nearbyText: "Toutes les suggestions sont organis\u00e9es pour mieux profiter de votre temps pendant votre s\u00e9jour \u00e0 Natura 54.",
+    knowUs: "Découvrez-nous",
     map: "Ouvrir dans Google Maps",
     gastronomyIntro: "Restaurants, caf\u00e9s, boissons et saveurs recommand\u00e9es \u00e0 Ibagu\u00e9.",
     shoppingIntro: "Achats, supermarch\u00e9s, pharmacies et services utiles pendant votre s\u00e9jour.",
@@ -70,6 +103,21 @@ const translations = {
     sportsIntro: "Sites sportifs, terrains et espaces pour rester actif en ville.",
     fromNatura: "Depuis Natura 54",
     phone: "T\u00e9l."
+  }
+};
+
+const voiceWelcomes = {
+  es: {
+    text: "Bienvenido a Natura 54",
+    lang: "es"
+  },
+  en: {
+    text: "Welcome to Natura 54",
+    lang: "en"
+  },
+  fr: {
+    text: "Bienvenue \u00e0 Natura 54",
+    lang: "fr"
   }
 };
 
@@ -117,10 +165,11 @@ const categories = {
       },
       {
         icon: "\u2615",
-        name: "9K Coffee Club & Food / 9K Cocina Gourmet",
-        address: "Kil\u00f3metro 9, v\u00eda al Ca\u00f1\u00f3n del Combeima, sector Puerto Per\u00fa",
-        es: "Restaurante, caf\u00e9 y bar campestre en la ruta hacia el Ca\u00f1\u00f3n del Combeima.",
-        en: "Countryside restaurant, caf\u00e9 and bar on the route to the Combeima Canyon."
+        name: "9K Gourmet Zona 60",
+        address: "Calle 60 #10, Ibagu\u00e9, Tolima",
+        phone: "321 379 6894",
+        es: "Restaurante ubicado en la Zona 60 de Ibagu\u00e9, con una propuesta gastron\u00f3mica variada en un ambiente agradable y moderno.",
+        en: "Restaurant located in Ibagu\u00e9's Zona 60, with a varied food proposal in a pleasant, modern setting."
       },
       {
         icon: "\u{1F372}",
@@ -391,7 +440,7 @@ const frenchDescriptions = {
   "Toppings Arepas & Drinks": "Option proche et d\u00e9contract\u00e9e pour savourer des arepas, de la restauration rapide et des boissons, parfaite pour un repas simple ou une sortie le soir.",
   "Don Pedro T\u00edpico Colombiano - Calle 60": "Restaurant de cuisine colombienne traditionnelle, viandes et grillades.",
   "Salvador y Milagros": "Restaurant de cuisine colombienne, grillades et propositions contemporaines, situ\u00e9 \u00e0 c\u00f4t\u00e9 de Don Pedro.",
-  "9K Coffee Club & Food / 9K Cocina Gourmet": "Restaurant, caf\u00e9 et bar champ\u00eatre sur la route du Ca\u00f1\u00f3n del Combeima.",
+  "9K Gourmet Zona 60": "Restaurant situ\u00e9 dans la Zona 60 d\u2019Ibagu\u00e9, avec une proposition gastronomique vari\u00e9e dans une ambiance agr\u00e9able et moderne.",
   "Tamales Don Floro": "Sp\u00e9cialiste du tamal du Tolima et de la gastronomie traditionnelle.",
   "Tamal y Lechona Linda - Plaza de la 28": "Tamales, lechona et cuisine typique du Tolima \u00e0 l'int\u00e9rieur de la Plaza de Mercado La 28.",
   "Fog\u00f3n del Pollo - Jord\u00e1n": "Poulet r\u00f4ti et repas. Nous recommandons de confirmer l'adresse par t\u00e9l\u00e9phone avant la visite.",
@@ -434,18 +483,18 @@ const englishDescriptions = {
   "Tamal y Lechona Linda - Plaza de la 28": "A place to enjoy tamal, lechona and other traditional Tolima flavors inside one of the city's traditional commercial areas.",
   "Empireo Gastrobar": "Gastrobar with a restaurant, drinks and cocktail concept. Recommended for guests looking for food with a modern and social atmosphere.",
   "Tamales Don Floro": "Known for tamales and traditional preparations. A recommended option to try one of Tolima's most representative flavors.",
-  "9K Coffee Club & Food": "Countryside restaurant, coffee shop and bar located on the route to the Combeima Canyon. A good option to combine food, scenery and a trip outside the urban area.",
+  "9K Gourmet Zona 60": "Restaurant located in Ibagu\u00e9's Zona 60, with a varied food proposal in a pleasant, modern setting. A very close option to Natura 54 for enjoying a meal with your partner, family or friends without leaving the area.",
   "Fog\u00f3n del Pollo - Jord\u00e1n": "Restaurant specializing in roasted chicken and traditional meals. A practical option for lunch or dinner in the Jord\u00e1n area.",
   "Centro Comercial La Estaci\u00f3n": "One of Ibagu\u00e9's main shopping centers. It has stores, restaurants, a food court, entertainment, services and several options for spending a full afternoon.",
   "Centro Comercial Multicentro": "Shopping center with stores, restaurants, services, entertainment and several options for shopping during your stay.",
-  "Mercacentro No. 4 - Avenida Guabinal": "Recommended supermarket for groceries, drinks, snacks, toiletries and other products needed during the stay.",
-  "Surtiplaza - Acqua": "Supermarket where you can find food, drinks, toiletries, household items and different products needed during a stay at Natura 54.",
+  "Mercacentro No. 4 \u2013 Avenida Guabinal": "Recommended supermarket for groceries, drinks, snacks, toiletries and other products needed during the stay.",
+  "Surtiplaza \u2013 Acqua": "Supermarket where you can find food, drinks, toiletries, household items and different products needed during a stay at Natura 54.",
   "Acqua Power Center": "Commercial complex very close to Natura 54 with restaurants, caf\u00e9s, stores, services and different shopping and entertainment options.",
   "Paseo Comercial Arkacentro": "Commercial promenade with businesses, restaurants and different services. It can easily complement a visit to the Calle 60 shopping area.",
-  "Tienda D1 - Distrito 60": "Discount supermarket recommended for quick purchases of food, drinks, basic products and items needed during the stay.",
+  "Tienda D1 \u2013 Distrito 60": "Discount supermarket recommended for quick purchases of food, drinks, basic products and items needed during the stay.",
   "Panader\u00eda Morata": "Traditional bakery with bread, pastries, breakfast options, drinks and products that pair well with coffee.",
-  "Estaci\u00f3n de Servicio Terpel - Guabinal": "Gas station for fuel and basic vehicle services. A convenient option thanks to its proximity to Natura 54.",
-  "Estaci\u00f3n de Servicio Texaco - Piedra Pintada": "Gas station located in the Piedra Pintada area, convenient for guests traveling by private vehicle.",
+  "Estaci\u00f3n de Servicio Terpel \u2013 Guabinal": "Gas station for fuel and basic vehicle services. A convenient option thanks to its proximity to Natura 54.",
+  "Estaci\u00f3n de Servicio Texaco \u2013 Piedra Pintada": "Gas station located in the Piedra Pintada area, convenient for guests traveling by private vehicle.",
   "Droguer\u00eda La Rebaja Plus - La 60": "Pharmacy and small market for medicine, personal care products and different essential items.",
   "Ca\u00f1\u00f3n del Combeima": "One of Ibagu\u00e9's main natural attractions. It is a corridor surrounded by mountains, river, waterfalls, viewpoints, restaurants and characteristic regional landscapes.",
   "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9": "The city's main Catholic church and one of the architectural landmarks of Ibagu\u00e9's historic center.",
@@ -524,14 +573,16 @@ const frenchDetails = {
   ]
 };
 
-function recommendation({ icon, name, address, rating, distance, phone, description, details }) {
+function recommendation({ icon, name, image, address, rating, distance, phone, phoneLabel, description, details }) {
   const item = {
     icon,
     name,
+    image,
     address,
     rating,
     distance,
     phone,
+    phoneLabel,
     es: description,
     en: description,
     fr: frenchDescriptions[name] || description
@@ -552,6 +603,7 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u2615",
     name: "Annetts Coffee & Bakery",
+    image: "assets/gastronomy/annetts-coffee-bakery.png",
     address: "Calle 54 #7B-48, Rinc\u00f3n de Piedra Pintada",
     rating: "5.0 / 5",
     distance: "0 km · En el mismo edificio",
@@ -561,15 +613,17 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1FAD3}",
     name: "Toppings Arepas & Drinks",
+    image: "assets/gastronomy/toppings-arepas-drinks.png",
     address: "Edificio Maros, Calle 56 #7C-05",
     rating: "5.0 / 5",
-    distance: "Aprox. 300 m · 4 min caminando",
+    distance: "30 m · 1 min caminando",
     phone: "316 494 8423",
     description: "Una opci\u00f3n informal para disfrutar arepas, comida r\u00e1pida y bebidas. Recomendada para una comida casual, compartir con amigos o comer algo durante la noche."
   }),
   recommendation({
     icon: "\u{1F378}",
     name: "El Patr\u00f3n Liquor Store",
+    image: "assets/gastronomy/el-patron-liquor-store.png",
     address: "Calle 53 #7B-55",
     rating: "4.9 / 5",
     distance: "Aprox. 200 m · 2-3 min caminando",
@@ -578,6 +632,7 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1F41F}",
     name: "Somos Pac\u00edfico",
+    image: "assets/gastronomy/somos-pacifico.png",
     address: "Calle 54 #7B-05",
     rating: "4.8 / 5",
     distance: "Aprox. 100 m · 1-2 min caminando",
@@ -586,6 +641,7 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1F37D}\uFE0F",
     name: "Salvador y Milagros",
+    image: "assets/gastronomy/salvador-y-milagros.png",
     address: "Avenida 60 #13A-33, sector Vivero 60 / Arkam\u00f3nica",
     rating: "4.8 / 5",
     distance: "Aprox. 1 km · 4-6 min en carro",
@@ -595,6 +651,7 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1F377}",
     name: "Don Pedro T\u00edpico Colombiano",
+    image: "assets/gastronomy/don-pedro-tipico-colombiano.png",
     address: "Avenida 60 #13A-33",
     rating: "4.8 / 5",
     distance: "Aprox. 1 km · 4-6 min en carro",
@@ -604,15 +661,18 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1F372}",
     name: "Tamal y Lechona Linda - Plaza de la 28",
+    image: "assets/gastronomy/tamal-lechona-linda.png",
     address: "Plaza de Mercado La 28, Carrera 4H entre calles 28 y 29",
     rating: "4.8 / 5",
     distance: "Aprox. 3.5 km · 12-15 min en carro",
     phone: "321 394 0466",
+    phoneLabel: "Domicilio.",
     description: "Alternativa para disfrutar tamal, lechona y otros sabores tradicionales del Tolima dentro de uno de los sectores comerciales tradicionales de la ciudad."
   }),
   recommendation({
     icon: "\u{1F37D}\uFE0F",
     name: "Empireo Gastrobar",
+    image: "assets/gastronomy/empireo-gastrobar.png",
     address: "Carrera 7C #51-06",
     rating: "4.7 / 5",
     distance: "Aprox. 500 m · 6-8 min caminando / 3 min en carro",
@@ -622,143 +682,160 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1F372}",
     name: "Tamales Don Floro",
+    image: "assets/gastronomy/tamales-don-floro.png",
     address: "Calle 34 #4A-19",
     rating: "4.7 / 5",
     distance: "Aprox. 3 km · 10-12 min en carro",
     phone: "314 409 2122",
+    phoneLabel: "Domicilio.",
     description: "Establecimiento reconocido por sus tamales y preparaciones tradicionales. Una alternativa recomendada para conocer uno de los sabores m\u00e1s representativos de la gastronom\u00eda tolimense."
   }),
   recommendation({
     icon: "\u2615",
-    name: "9K Coffee Club & Food",
-    address: "Kil\u00f3metro 9, v\u00eda al Ca\u00f1\u00f3n del Combeima, sector Puerto Per\u00fa",
+    name: "9K Gourmet Zona 60",
+    image: "assets/gastronomy/gourmet.png",
+    address: "Calle 60 #10, Ibagu\u00e9, Tolima",
     rating: "4.7 / 5",
-    distance: "Aprox. 12 km · 25-35 min en carro",
-    phone: "317 214 4372",
-    description: "Restaurante, caf\u00e9 y bar campestre ubicado en la ruta hacia el Ca\u00f1\u00f3n del Combeima. Una alternativa para combinar gastronom\u00eda, paisaje y un recorrido fuera de la zona urbana."
+    distance: "Aprox. 1 km · 4-6 min en carro",
+    phone: "321 379 6894",
+    description: "Restaurante ubicado en la Zona 60 de Ibagu\u00e9, con una propuesta gastron\u00f3mica variada en un ambiente agradable y moderno. Una alternativa muy cercana a Natura 54 para disfrutar de una comida, compartir en pareja, familia o con amigos sin alejarse del sector."
   }),
   recommendation({
     icon: "\u{1F414}",
     name: "Fog\u00f3n del Pollo - Jord\u00e1n",
+    image: "assets/gastronomy/fogon-del-pollo-jordan.png",
     address: "Avenida Guabinal con Calle 65, sector Jord\u00e1n 9 etapa",
     rating: "4.5 / 5",
     distance: "Aprox. 1.8 km · 6-8 min en carro",
     phone: "310 674 7609",
+    phoneLabel: "Domicilio.",
     description: "Restaurante especializado en pollo asado y comidas tradicionales. Una alternativa pr\u00e1ctica para almorzar o cenar en el sector del Jord\u00e1n."
   })
 ];
 
+categories.shopping.manualOrder = true;
 categories.shopping.places = [
   recommendation({
     icon: "\u{1F6CD}\uFE0F",
     name: "Centro Comercial La Estaci\u00f3n",
-    address: "Calle 60 #12-224",
+    image: "assets/shopping/estacion.png",
+    address: "Calle 60 #12-224, Ibagu\u00e9",
     rating: "4.6 / 5",
-    distance: "Aprox. 1.5 km · 5-8 min en carro",
+    distance: "Aprox. 1.5 km \u00b7 5-6 min en carro",
     phone: "608 270 7536",
     description: "Uno de los principales centros comerciales de Ibagu\u00e9. Cuenta con tiendas, restaurantes, plazoleta de comidas, entretenimiento, servicios y diferentes alternativas para pasar una tarde completa."
   }),
   recommendation({
     icon: "\u{1F6D2}",
     name: "Centro Comercial Multicentro",
-    address: "Carrera 5 #60-123",
-    rating: "4.5 / 5",
-    distance: "Aprox. 1 km · 4-6 min en carro",
+    image: "assets/shopping/multicentro.png",
+    address: "Carrera 5 #60-123, Ibagu\u00e9",
+    rating: "4.6 / 5",
+    distance: "Aprox. 1 km \u00b7 4-5 min en carro",
     phone: "608 274 3366",
     description: "Centro comercial con tiendas, restaurantes, servicios, entretenimiento y diferentes opciones para realizar compras durante la estad\u00eda."
   }),
   recommendation({
-    icon: "\u{1F6D2}",
-    name: "Mercacentro No. 4 - Avenida Guabinal",
-    address: "Avenida Guabinal #51-53",
-    rating: "4.5 / 5",
-    distance: "Aprox. 500 m · 6-8 min caminando / 3 min en carro",
-    phone: "608 515 6156",
-    description: "Supermercado recomendado para realizar mercado y comprar bebidas, snacks, art\u00edculos de aseo y otros productos necesarios durante la estad\u00eda."
-  }),
-  recommendation({
-    icon: "\u{1F6D2}",
-    name: "Surtiplaza - Acqua",
-    address: "Centro Comercial Acqua Power Center, sector Calle 60",
-    rating: "4.5 / 5",
-    distance: "Aprox. 700 m · 3-5 min en carro",
-    phone: "315 363 6524",
-    description: "Supermercado donde encontrar\u00e1s alimentos, bebidas, productos de aseo, art\u00edculos para el hogar y diferentes productos necesarios durante una estad\u00eda en Natura 54."
-  }),
-  recommendation({
     icon: "\u{1F6CD}\uFE0F",
     name: "Acqua Power Center",
-    address: "Calle 60 #8-37",
-    rating: "4.4 / 5",
-    distance: "Aprox. 700 m · 10 min caminando / 3-5 min en carro",
+    image: "assets/shopping/centro-comercial-acqua.png",
+    address: "Calle 60 #8-37, Ibagu\u00e9",
+    rating: "4.6 / 5",
+    distance: "Aprox. 500 m \u00b7 5 min caminando / 3 min en carro",
     phone: "608 279 5171",
     description: "Complejo comercial muy cercano a Natura 54 que re\u00fane restaurantes, caf\u00e9s, tiendas, servicios y diferentes alternativas para compras y entretenimiento."
   }),
   recommendation({
     icon: "\u{1F6CD}\uFE0F",
     name: "Paseo Comercial Arkacentro",
-    address: "Carrera 5 #64A-15",
-    rating: "4.3 / 5",
-    distance: "Aprox. 1.2 km · 5-7 min en carro",
+    image: "assets/shopping/Arka.png",
+    address: "Carrera 5 #64A-15, Ibagu\u00e9",
+    rating: "4.5 / 5",
+    distance: "Aprox. 1.2 km \u00b7 4-6 min en carro",
     description: "Paseo comercial con establecimientos, restaurantes y diferentes servicios. Puede complementar f\u00e1cilmente una visita a la zona comercial de la Calle 60."
   }),
   recommendation({
     icon: "\u{1F6D2}",
-    name: "Tienda D1 - Distrito 60",
-    address: "Sector Calle 60, Prados del Norte",
+    name: "Mercacentro No. 4 \u2013 Avenida Guabinal",
+    image: "assets/shopping/merca.png",
+    address: "Avenida Guabinal #51-53, Ibagu\u00e9",
+    rating: "4.5 / 5",
+    distance: "Aprox. 500 m \u00b7 4-6 min caminando / 3 min en carro",
+    phone: "608 515 6156",
+    description: "Supermercado recomendado para realizar mercado y comprar bebidas, snacks, art\u00edculos de aseo y otros productos necesarios durante la estad\u00eda."
+  }),
+  recommendation({
+    icon: "\u{1F6D2}",
+    name: "Surtiplaza \u2013 Acqua",
+    image: "assets/shopping/Surtiplaza.png",
+    address: "Centro Comercial Acqua Power Center, sector Calle 60, Ibagu\u00e9",
+    rating: "4.5 / 5",
+    distance: "Aprox. 500 m \u00b7 5 min caminando / 3 min en carro",
+    phone: "315 363 6524",
+    description: "Supermercado donde encontrar\u00e1s alimentos, bebidas, productos de aseo, art\u00edculos para el hogar y diferentes productos necesarios durante una estad\u00eda en Natura 54."
+  }),
+  recommendation({
+    icon: "\u{1F6D2}",
+    name: "Tienda D1 \u2013 Distrito 60",
+    image: "assets/shopping/D1.png",
+    address: "Sector Calle 60, Prados del Norte, Ibagu\u00e9",
     rating: "4.3 / 5",
-    distance: "Aprox. 1 km · 4-6 min en carro",
+    distance: "Aprox. 1 km \u00b7 8 min caminando / 4 min en carro",
     description: "Supermercado de descuento recomendado para realizar compras r\u00e1pidas de alimentos, bebidas, productos b\u00e1sicos y art\u00edculos necesarios durante la estad\u00eda."
   }),
   recommendation({
     icon: "\u{1F956}",
     name: "Panader\u00eda Morata",
-    address: "Sector cercano a Mercacentro No. 4, Avenida Guabinal",
+    image: "assets/shopping/morata.png",
+    address: "Sector cercano a Mercacentro No. 4, Avenida Guabinal, Ibagu\u00e9",
     rating: "4.3 / 5",
-    distance: "Aprox. 600 m · 8-10 min caminando / 3-5 min en carro",
+    distance: "Aprox. 600 m \u00b7 4-6 min caminando / 3 min en carro",
     description: "Panader\u00eda tradicional con opciones de panader\u00eda, pasteler\u00eda, desayunos, bebidas y productos ideales para acompa\u00f1ar un caf\u00e9."
-  }),
-  recommendation({
-    icon: "\u26FD",
-    name: "Estaci\u00f3n de Servicio Terpel - Guabinal",
-    address: "Avenida Guabinal con Calle 60",
-    rating: "4.3 / 5",
-    distance: "Aprox. 1 km · 4-6 min en carro",
-    description: "Estaci\u00f3n de servicio para abastecimiento de combustible y servicios b\u00e1sicos para veh\u00edculos. Una alternativa conveniente por su cercan\u00eda con Natura 54."
-  }),
-  recommendation({
-    icon: "\u26FD",
-    name: "Estaci\u00f3n de Servicio Texaco - Piedra Pintada",
-    address: "Avenida Guabinal #64-66",
-    rating: "4.3 / 5",
-    distance: "Aprox. 1.2 km · 4-6 min en carro",
-    description: "Estaci\u00f3n de combustible ubicada en el sector de Piedra Pintada, conveniente para hu\u00e9spedes que se movilizan en veh\u00edculo particular."
   }),
   recommendation({
     icon: "\u{1F48A}",
     name: "Droguer\u00eda La Rebaja Plus - La 60",
-    address: "Carrera 6 #59-29",
+    image: "assets/shopping/la_rebaja.png",
+    address: "Carrera 6 #59-29, Ibagu\u00e9",
     rating: "3.1 / 5",
-    distance: "Aprox. 800 m · 3-5 min en carro",
+    distance: "Aprox. 800 m \u00b7 10 min caminando / 5 min en carro",
     phone: "317 300 4444",
     description: "Droguer\u00eda y minimercado para medicamentos, productos de cuidado personal y diferentes art\u00edculos de primera necesidad."
+  }),
+  recommendation({
+    icon: "\u26FD",
+    name: "Estaci\u00f3n de Servicio Terpel \u2013 Guabinal",
+    image: "assets/shopping/terpel_guavinal.png",
+    address: "Avenida Guabinal con Calle 60, Ibagu\u00e9",
+    rating: "4.3 / 5",
+    distance: "Aprox. 800 m \u00b7 5 min en carro",
+    description: "Estaci\u00f3n de servicio para abastecimiento de combustible y servicios b\u00e1sicos para veh\u00edculos. Una alternativa conveniente por su cercan\u00eda con Natura 54."
+  }),
+  recommendation({
+    icon: "\u26FD",
+    name: "Estaci\u00f3n de Servicio Texaco \u2013 Piedra Pintada",
+    image: "assets/shopping/texaco.png",
+    address: "Avenida Guabinal #64-66, Ibagu\u00e9",
+    rating: "4.3 / 5",
+    distance: "Aprox. 1.2 km \u00b7 4-6 min en carro",
+    description: "Estaci\u00f3n de combustible ubicada en el sector de Piedra Pintada, conveniente para hu\u00e9spedes que se movilizan en veh\u00edculo particular."
   })
 ];
-
 categories.tourism.places = [
   recommendation({
     icon: "\u{1F304}",
     name: "Ca\u00f1\u00f3n del Combeima",
+    image: "assets/tourism/senderismo-canon-combeima-finca-rivera.png",
     address: "V\u00eda al Ca\u00f1\u00f3n del Combeima",
     rating: "4.7 / 5",
     distance: "Aprox. 15 km · 30-45 min en carro",
-    phone: "316 532 3648",
     description: "Uno de los principales atractivos naturales de Ibagu\u00e9. Es un corredor rodeado de monta\u00f1as, r\u00edo, cascadas, miradores, restaurantes y paisajes caracter\u00edsticos de la regi\u00f3n.",
     details: ["Ideal para: naturaleza, fotograf\u00eda, caminatas y planes de medio d\u00eda o d\u00eda completo.", "Qu\u00e9 hacer: recorrer la v\u00eda hacia Juntas, visitar miradores, conocer atractivos naturales y disfrutar la gastronom\u00eda de la zona.", "Recomendaci\u00f3n Natura: salir durante la ma\u00f1ana y aprovechar el recorrido para conocer Juntas y disfrutar comida t\u00edpica."]
   }),
   recommendation({
     icon: "\u26EA",
     name: "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9",
+    image: "assets/tourism/catedral-de-ibague.png",
     address: "Plaza de Bol\u00edvar, Centro de Ibagu\u00e9",
     rating: "4.7 / 5",
     distance: "Aprox. 4.5 km · 15-20 min en carro",
@@ -769,6 +846,7 @@ categories.tourism.places = [
   recommendation({
     icon: "\u{1F33F}",
     name: "Jard\u00edn Bot\u00e1nico San Jorge",
+    image: "assets/tourism/jardin-botanico-san-jorge.png",
     address: "V\u00eda Las Nieves",
     rating: "4.6 / 5",
     distance: "Aprox. 4 km · 15-25 min en carro",
@@ -779,6 +857,7 @@ categories.tourism.places = [
   recommendation({
     icon: "\u{1F3DB}\uFE0F",
     name: "Museo Pan\u00f3ptico de Ibagu\u00e9",
+    image: "assets/tourism/panoptico.png",
     address: "Calle 11 #9-73A",
     rating: "4.4 / 5",
     distance: "Aprox. 4 km · 15-20 min en carro",
@@ -788,6 +867,7 @@ categories.tourism.places = [
   recommendation({
     icon: "\u{1F94E}",
     name: "Parque Ecol\u00f3gico La Martinica",
+    image: "assets/tourism/martinica.png",
     address: "Variante Ibagu\u00e9-Armenia",
     rating: "4.4 / 5",
     distance: "Aprox. 7 km · 20-30 min en carro",
@@ -798,6 +878,7 @@ categories.tourism.places = [
   recommendation({
     icon: "\u{1F3D6}\uFE0F",
     name: "Playa Hawai",
+    image: "assets/tourism/playa_hawai.png",
     address: "Kil\u00f3metro 22, v\u00eda Ibagu\u00e9-Girardot, Tolima",
     rating: "4.1 / 5",
     distance: "Aprox. 22 km · 30-40 min en carro",
@@ -808,6 +889,7 @@ categories.tourism.places = [
   recommendation({
     icon: "\u{1F3A1}",
     name: "Parque Caik\u00e9",
+    image: "assets/tourism/Parque-Caike.png",
     address: "Kil\u00f3metro 15, variante Armenia-Bogot\u00e1, sector Buenos Aires",
     rating: "4.1 / 5",
     distance: "Aprox. 18-20 km · 25-35 min en carro",
@@ -821,6 +903,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u{1F3CA}",
     name: "Unidad Deportiva de la Calle 42",
+    image: "assets/sports/psina.png",
     address: "Carrera 5 #42-06",
     rating: "4.7 / 5",
     distance: "Aprox. 1.5-2 km · 6-10 min en carro",
@@ -829,6 +912,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u{1F3DE}\uFE0F",
     name: "Parque Centenario",
+    image: "assets/sports/centenario.png",
     address: "Carrera 5 con Calle 8, sector Centro",
     rating: "4.6 / 5",
     distance: "Aprox. 4 km · 12-15 min en carro",
@@ -837,6 +921,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u{1F3DF}\uFE0F",
     name: "Parque Deportivo de Ibagu\u00e9",
+    image: "assets/sports/parque_deportivo.png",
     address: "Kil\u00f3metro 1 v\u00eda al Aeropuerto Perales",
     rating: "4.5 / 5",
     distance: "Aprox. 5 km · 10-15 min en carro",
@@ -846,6 +931,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u26BD",
     name: "Estadio Manuel Murillo Toro",
+    image: "assets/sports/estadio.png",
     address: "Calle 37 con Carrera 4",
     rating: "4.5 / 5",
     distance: "Aprox. 2.5 km · 8-12 min en carro",
@@ -854,6 +940,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u26BD",
     name: "The Synthetic - Canchas de la 64",
+    image: "assets/sports/cancha64.png",
     address: "Avenida 64 con Carrera 9, sector Jord\u00e1n",
     rating: "4.4 / 5",
     distance: "Aprox. 1.5 km · 5-8 min en carro",
@@ -863,6 +950,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u26BD",
     name: "Canchas Sint\u00e9ticas El Tri\u00e1ngulo",
+    image: "assets/sports/triasngulo.png",
     address: "Carrera 5 con Calle 43",
     rating: "4.4 / 5",
     distance: "Aprox. 1.5 km · 5-8 min en carro",
@@ -871,6 +959,7 @@ categories.sports.places = [
   recommendation({
     icon: "\u26BD",
     name: "Canchas Sint\u00e9ticas La Estaci\u00f3n",
+    image: "assets/sports/cacestacion.png",
     address: "Centro Comercial La Estaci\u00f3n, tercer piso, Local 3-21",
     rating: "4.4 / 5",
     distance: "Aprox. 1.5 km · 5-8 min en carro",
@@ -884,9 +973,17 @@ let currentCategory = "";
 
 const languageScreen = document.querySelector("#languageScreen");
 const guideScreen = document.querySelector("#guideScreen");
+const choicesScreen = document.querySelector("#choicesScreen");
+const resultsScreen = document.querySelector("#resultsScreen");
 const choiceGrid = document.querySelector("#choiceGrid");
 const recommendations = document.querySelector("#recommendations");
 const languageToggle = document.querySelector("#languageToggle");
+const choicesLanguageToggle = document.querySelector("#choicesLanguageToggle");
+const resultsLanguageToggle = document.querySelector("#resultsLanguageToggle");
+const resultsTitle = document.querySelector("#resultsTitle");
+if ("speechSynthesis" in window) {
+  window.speechSynthesis.getVoices();
+}
 
 function mapUrl(place) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${place.name} ${place.address} Ibagu\u00e9 Tolima`)}`;
@@ -926,20 +1023,112 @@ function translatePage() {
     const key = node.dataset.i18n;
     node.textContent = translations[currentLanguage][key];
   });
-  languageToggle.textContent = currentLanguage.toUpperCase();
+  document.querySelectorAll(".language-pill").forEach((pill) => {
+    pill.textContent = currentLanguage.toUpperCase();
+  });
+  updateResultsTitle();
   setCategoryCounts();
   renderRecommendations();
 }
 
+function updateResultsTitle() {
+  if (!resultsTitle || !currentCategory) return;
+  const category = categories[currentCategory];
+  resultsTitle.textContent = `${category.icon} ${translations[currentLanguage][category.titleKey]}`;
+}
+
+function activateScreen(screenName, options = {}) {
+  const screens = {
+    language: languageScreen,
+    guide: guideScreen,
+    choices: choicesScreen,
+    results: resultsScreen
+  };
+
+  Object.values(screens).forEach((screen) => screen.classList.remove("is-active"));
+  screens[screenName].classList.add("is-active");
+  sessionStorage.setItem("natura54Screen", screenName);
+
+  if (screenName === "language") {
+    sessionStorage.removeItem("natura54GuideActive");
+    sessionStorage.removeItem("natura54Screen");
+    sessionStorage.removeItem("natura54Category");
+  } else {
+    sessionStorage.setItem("natura54GuideActive", "true");
+  }
+
+  if (!options.skipHistory) {
+    history.pushState({ screen: screenName, category: currentCategory }, "", screenName === "language" ? window.location.pathname : `#${screenName}`);
+  }
+
+  window.scrollTo({ top: 0, behavior: options.instant ? "auto" : "smooth" });
+}
+
+function openChoices(options = {}) {
+  currentCategory = "";
+  sessionStorage.removeItem("natura54Category");
+  document.querySelectorAll("[data-category]").forEach((item) => item.classList.remove("is-selected"));
+  recommendations.innerHTML = "";
+  activateScreen("choices", options);
+}
+
+function openResults(category, options = {}) {
+  currentCategory = category;
+  sessionStorage.setItem("natura54Category", currentCategory);
+  document.querySelectorAll("[data-category]").forEach((item) => {
+    item.classList.toggle("is-selected", item.dataset.category === currentCategory);
+  });
+  translatePage();
+  activateScreen("results", options);
+}
+
+function cycleLanguage() {
+  const languages = ["es", "en", "fr"];
+  const currentIndex = languages.indexOf(currentLanguage);
+  currentLanguage = languages[(currentIndex + 1) % languages.length];
+  localStorage.setItem("natura54Language", currentLanguage);
+  sessionStorage.setItem("natura54GuideActive", "true");
+  translatePage();
+}
+
+function speakWelcome(language) {
+  if (!("speechSynthesis" in window) || !("SpeechSynthesisUtterance" in window)) {
+    return;
+  }
+
+  const welcome = voiceWelcomes[language];
+  if (!welcome) {
+    return;
+  }
+
+  const utterance = new SpeechSynthesisUtterance(welcome.text);
+  const voices = window.speechSynthesis.getVoices();
+  const languageVoices = voices.filter((voice) => voice.lang.toLowerCase().startsWith(welcome.lang));
+  const preferredVoice = languageVoices.find((voice) => /female|mujer|femme|woman|paulina|helena|sabina|monica|samantha|amelie|audrey/i.test(voice.name))
+    || languageVoices.find((voice) => voice.localService)
+    || languageVoices[0];
+
+  utterance.lang = preferredVoice?.lang || welcome.lang;
+  utterance.voice = preferredVoice || null;
+  utterance.rate = 0.9;
+  utterance.pitch = 1.12;
+  utterance.volume = 0.95;
+
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance);
+}
+
 function showGuide(language) {
   currentLanguage = language;
-  languageScreen.classList.remove("is-active");
-  guideScreen.classList.add("is-active");
-  choiceGrid.classList.remove("is-open");
+  localStorage.setItem("natura54Language", currentLanguage);
+  sessionStorage.setItem("natura54GuideActive", "true");
+  sessionStorage.setItem("natura54Screen", "guide");
+  sessionStorage.removeItem("natura54Category");
   currentCategory = "";
   document.querySelectorAll("[data-category]").forEach((item) => item.classList.remove("is-selected"));
   translatePage();
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  activateScreen("guide");
+  speakWelcome(currentLanguage);
 }
 
 function renderRecommendations() {
@@ -952,13 +1141,13 @@ function renderRecommendations() {
   const copy = translations[currentLanguage];
   const cards = category.places
     .slice()
-    .sort((a, b) => ratingValue(b) - ratingValue(a))
+    .sort((a, b) => (category.manualOrder ? 0 : ratingValue(b) - ratingValue(a)))
     .map((place, index) => {
       const meta = [
         place.address ? `\u{1F4CD} ${place.address}` : "",
         place.rating ? `\u2B50 ${place.rating}` : "",
         place.distance ? `${copy.fromNatura}: ${place.distance}` : "",
-        place.phone ? `\u260E\uFE0F ${copy.phone} ${place.phone}` : ""
+        place.phone ? `\u260E\uFE0F ${place.phoneLabel || copy.phone} ${place.phone}` : ""
       ]
         .filter(Boolean)
         .map((item) => `<span>${item}</span>`)
@@ -968,10 +1157,15 @@ function renderRecommendations() {
       const details = detailItems
         ? `<ul class="details">${detailItems.map((item) => `<li>${item}</li>`).join("")}</ul>`
         : "";
+      const imageSrc = place.image ? `${place.image}?v=5` : "";
+      const image = place.image
+        ? `<img src="${imageSrc}" alt="${place.name}" loading="lazy" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">`
+        : "";
 
       return `
         <article class="place-card" style="--delay: ${Math.min(index * 55, 420)}ms">
-          <a class="place-image ${currentCategory}" href="${mapUrl(place)}" target="_blank" rel="noreferrer" aria-label="${copy.map}: ${place.name}">
+          <a class="place-image ${currentCategory}${place.image ? " has-photo" : ""}" href="${mapUrl(place)}" target="_blank" rel="noreferrer" aria-label="${copy.map}: ${place.name}">
+            ${image}
             <span aria-hidden="true">${place.icon}</span>
           </a>
           <div class="place-body">
@@ -1007,8 +1201,8 @@ function setCategoryCounts() {
       button.append(countNode);
     }
 
-    countNode.textContent = count;
-    countNode.setAttribute("aria-label", `${count} lugares`);
+    countNode.innerHTML = `<span>${count}</span> ${translations[currentLanguage].recommendationLabel}`;
+    countNode.setAttribute("aria-label", `${count} ${translations[currentLanguage].recommendationLabel}`);
   });
 }
 
@@ -1017,31 +1211,86 @@ document.querySelectorAll("[data-language]").forEach((button) => {
 });
 
 document.querySelector("#backToLanguage").addEventListener("click", () => {
-  guideScreen.classList.remove("is-active");
-  languageScreen.classList.add("is-active");
-  window.scrollTo({ top: 0, behavior: "smooth" });
+  activateScreen("language");
 });
 
-languageToggle.addEventListener("click", () => {
-  const languages = ["es", "en", "fr"];
-  const currentIndex = languages.indexOf(currentLanguage);
-  currentLanguage = languages[(currentIndex + 1) % languages.length];
-  translatePage();
-});
+languageToggle.addEventListener("click", cycleLanguage);
+choicesLanguageToggle.addEventListener("click", cycleLanguage);
+resultsLanguageToggle.addEventListener("click", cycleLanguage);
 
 document.querySelector("#openChoices").addEventListener("click", () => {
-  choiceGrid.classList.toggle("is-open");
+  openChoices();
+});
+
+document.querySelector("#backToGuide").addEventListener("click", () => {
+  if (window.location.hash === "#choices") {
+    history.back();
+  } else {
+    activateScreen("guide", { skipHistory: true });
+  }
+});
+
+document.querySelector("#backToChoices").addEventListener("click", () => {
+  if (window.location.hash === "#results") {
+    history.back();
+  } else {
+    openChoices({ skipHistory: true });
+  }
 });
 
 document.querySelectorAll("[data-category]").forEach((button) => {
   button.addEventListener("click", () => {
-    currentCategory = button.dataset.category;
-    document.querySelectorAll("[data-category]").forEach((item) => item.classList.remove("is-selected"));
-    button.classList.add("is-selected");
-    renderRecommendations();
-    recommendations.scrollIntoView({ behavior: "smooth", block: "start" });
+    openResults(button.dataset.category);
   });
 });
 
 setCategoryCounts();
-renderRecommendations();
+
+const savedLanguage = localStorage.getItem("natura54Language");
+const savedCategory = sessionStorage.getItem("natura54Category");
+const savedScreen = sessionStorage.getItem("natura54Screen");
+const hashScreen = window.location.hash.replace("#", "");
+const initialScreen = ["guide", "choices", "results"].includes(hashScreen)
+  ? hashScreen
+  : ["guide", "choices", "results"].includes(savedScreen)
+    ? savedScreen
+    : "";
+const shouldOpenGuide = initialScreen || sessionStorage.getItem("natura54GuideActive") === "true";
+
+if (shouldOpenGuide && translations[savedLanguage]) {
+  currentLanguage = savedLanguage;
+  currentCategory = categories[savedCategory] ? savedCategory : "";
+  translatePage();
+  if (initialScreen === "results" && currentCategory) {
+    openResults(currentCategory, { skipHistory: true, instant: true });
+  } else if (initialScreen === "choices") {
+    openChoices({ skipHistory: true, instant: true });
+  } else {
+    activateScreen("guide", { skipHistory: true, instant: true });
+  }
+} else {
+  renderRecommendations();
+}
+
+window.addEventListener("popstate", (event) => {
+  const targetScreen = window.location.hash.replace("#", "");
+  const targetCategory = event.state?.category;
+
+  if (targetScreen === "results" && categories[targetCategory || currentCategory]) {
+    currentCategory = targetCategory || currentCategory;
+    openResults(currentCategory, { skipHistory: true, instant: true });
+    return;
+  }
+
+  if (targetScreen === "choices") {
+    openChoices({ skipHistory: true, instant: true });
+    return;
+  }
+
+  if (targetScreen === "guide") {
+    activateScreen("guide", { skipHistory: true, instant: true });
+    return;
+  }
+
+  activateScreen("language", { skipHistory: true, instant: true });
+});
