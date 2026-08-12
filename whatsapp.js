@@ -1,4 +1,4 @@
-const NATURA_WHATSAPP_NUMBER = "573146788517";
+const NATURA_WHATSAPP_NUMBER = "573153256089";
 const WHATSAPP_EMOJIS = {
   wave: String.fromCodePoint(0x1f44b),
   leaf: String.fromCodePoint(0x1f33f),
