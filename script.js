@@ -4,14 +4,19 @@ const translations = {
     meet: "Conoce a Natura 54",
     welcomeTitle: "Bienvenido a Natura 54 Experience \u{1F33F}",
     welcomeOne:
-      "Tu estad\u00eda comienza aqu\u00ed. Descubre Natura 54, conoce los mejores lugares de Ibagu\u00e9, encuentra restaurantes, caf\u00e9s, centros comerciales, planes tur\u00edsticos y experiencias cerca de ti.",
+      "<strong>Un lugar, tres espacios para disfrutar de una estad\u00eda c\u00f3moda y especial:</strong> un apartamento y dos apartaestudios, ubicados en una zona privilegiada de Ibagu\u00e9, en la <strong>Milla de Oro de la ciudad.</strong><br><br>Nuestra ubicaci\u00f3n te permite tener todo lo que necesitas muy cerca: <strong>centros comerciales, almacenes de cadena, restaurantes, caf\u00e9s, cl\u00ednicas, entidades bancarias y diferentes opciones de entretenimiento,</strong> <strong>todo muy cerca.</strong>",
     welcomeTwo:
-      "Hemos creado esta gu\u00eda para que disfrutes la ciudad de una forma f\u00e1cil, c\u00f3moda y especial.",
-    welcomeThree: "Explora, descubre y vive Ibagu\u00e9. Tu experiencia en Natura 54 empieza ahora.",
+      "Adem\u00e1s, hemos creado esta gu\u00eda para acompa\u00f1arte durante tu estad\u00eda. Aqu\u00ed encontrar\u00e1s <strong>planes tur\u00edsticos, experiencias, gastronom\u00eda y lugares recomendados</strong> para descubrir y disfrutar Ibagu\u00e9.",
+    welcomeThree:
+      "<strong>Explora nuestras recomendaciones, conoce la ciudad y vive Ibagu\u00e9 de la mejor manera.</strong><br><br>Bienvenido a Natura 54 Experience. <strong>Tu experiencia comienza aqu\u00ed.</strong>",
     photoHint: "Desliza para ver m\u00e1s fotos",
     addressLabel: "Direcci\u00f3n",
     route: "C\u00f3mo llegar",
     whatToday: "\u00bfQu\u00e9 quieres hacer hoy?",
+    exploreNearby: "Explora cerca de Natura 54",
+    exploreNearbyDescription: "Restaurantes, compras, turismo y planes",
+    stayWithUs: "Quiero alojarme",
+    stayWithUsDescription: "Fotos, informaci\u00f3n y contacto",
     chooseTitle: "Elige una experiencia",
     chooseText: "Selecciona una categor\u00eda para ver recomendaciones cercanas y organizadas para tu estad\u00eda.",
     gastronomy: "Gastronom\u00eda",
@@ -47,6 +52,10 @@ const translations = {
     addressLabel: "Address",
     route: "Get directions",
     whatToday: "What would you like to do today?",
+    exploreNearby: "Explore near Natura 54",
+    exploreNearbyDescription: "Restaurants, shopping, tourism and activities",
+    stayWithUs: "I want to stay",
+    stayWithUsDescription: "Photos, information and contact",
     chooseTitle: "Choose an experience",
     chooseText: "Select a category to see nearby recommendations organized for your stay.",
     gastronomy: "Food",
@@ -82,6 +91,10 @@ const translations = {
     addressLabel: "Adresse",
     route: "Itin\u00e9raire",
     whatToday: "Que voulez-vous faire aujourd'hui ?",
+    exploreNearby: "Explorez autour de Natura 54",
+    exploreNearbyDescription: "Restaurants, shopping, tourisme et activit\u00e9s",
+    stayWithUs: "Je veux s\u00e9journer",
+    stayWithUsDescription: "Photos, informations et contact",
     chooseTitle: "Choisissez une exp\u00e9rience",
     chooseText: "S\u00e9lectionnez une cat\u00e9gorie pour voir les recommandations proches organis\u00e9es pour votre s\u00e9jour.",
     gastronomy: "Gastronomie",
@@ -341,16 +354,15 @@ const categories = {
         }
       },
       {
-        icon: "\u{1F94E}",
-        name: "Parque Ecol\u00f3gico La Martinica",
-        address: "Parque Ecol\u00f3gico La Martinica",
-        rating: "4.4",
-        phone: "320 3000043",
-        es: "Un plan para quienes quieren monta\u00f1a sin alejarse demasiado de Ibagu\u00e9, con senderismo, recorridos ecol\u00f3gicos, miradores naturales y sectores de cascadas y vegetaci\u00f3n.",
-        en: "A plan for guests who want mountains without going too far from Ibagu\u00e9, with hiking, ecological routes, natural viewpoints, waterfalls and vegetation.",
+        icon: "\u{1F3D4}\uFE0F",
+        name: "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9",
+        address: "Ca\u00f1\u00f3n del Combeima, sector Juntas, Ibagu\u00e9",
+        rating: "4.6",
+        es: "Parque de naturaleza y aventura ubicado en el Ca\u00f1\u00f3n del Combeima, ideal para quienes buscan combinar paisajes, aire libre y actividades extremas.",
+        en: "Nature and adventure park in the Combeima Canyon, ideal for combining scenery, outdoor experiences and extreme activities.",
         details: {
-          es: ["Desde Natura 54: aprox. 20-30 min hasta el sector de acceso", "Ideal para: senderistas, amigos, parejas y viajeros aventureros.", "Recomendaci\u00f3n: llevar calzado adecuado, hidrataci\u00f3n y preferiblemente realizar los recorridos durante la ma\u00f1ana."],
-          en: ["From Natura 54: approx. 20-30 min to the access area", "Ideal for: hikers, friends, couples and adventurous travelers.", "Recommendation: wear proper shoes, bring water and preferably go in the morning."]
+          es: ["Desde Natura 54: aprox. 17 km \u00b7 35-45 min en carro", "Qu\u00e9 hacer: tirolesa, cauchera humana, cabalgatas, senderismo, muro de escalada, camping, actividades familiares y gastronom\u00eda.", "Recomendaci\u00f3n Natura: lleva ropa c\u00f3moda y calzado adecuado. Para realizar actividades extremas, se recomienda consultar previamente horarios y disponibilidad."],
+          en: ["From Natura 54: approx. 17 km \u00b7 35-45 min by car", "What to do: zip line, human slingshot, horseback riding, hiking, climbing wall, camping, family activities and food.", "Natura recommendation: wear comfortable clothes and suitable footwear. Check schedules and availability before doing extreme activities."]
         }
       },
       {
@@ -460,7 +472,7 @@ const frenchDescriptions = {
   "Ca\u00f1\u00f3n del Combeima": "L'un des plans incontournables d'Ibagu\u00e9. Un corridor naturel vers Juntas et les contreforts du Nevado del Tolima, avec montagnes, rivi\u00e8re, cascades, points de vue et gastronomie locale.",
   "Jard\u00edn Bot\u00e1nico San Jorge": "R\u00e9serve naturelle d'environ 60 hectares dans les collines d'Ibagu\u00e9, avec sentiers de for\u00eat subandine et collections d'orchid\u00e9es, brom\u00e9liac\u00e9es, palmiers, h\u00e9liconias et plantes m\u00e9dicinales.",
   "Museo Pan\u00f3ptico de Ibagu\u00e9": "L'ancien complexe p\u00e9nitentiaire a \u00e9t\u00e9 restaur\u00e9 et transform\u00e9 en mus\u00e9e et espace culturel, en conservant son architecture en forme de croix.",
-  "Parque Ecol\u00f3gico La Martinica": "Un plan pour ceux qui veulent profiter de la montagne sans trop s'\u00e9loigner d'Ibagu\u00e9, avec randonn\u00e9es, parcours \u00e9cologiques, points de vue naturels, cascades et v\u00e9g\u00e9tation.",
+  "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9": "Parc de nature et d'aventure situ\u00e9 dans le Ca\u00f1\u00f3n del Combeima, id\u00e9al pour combiner paysages, plein air et activit\u00e9s extr\u00eames.",
   "Catedral Inmaculada Concepci\u00f3n - Plaza de Bol\u00edvar": "Cath\u00e9drale principale d'Ibagu\u00e9 et l'un des lieux religieux et architecturaux embl\u00e9matiques du centre historique.",
   "Parque Caik\u00e9": "Parc th\u00e9matique et culturel avec attractions, activit\u00e9s familiales et espaces r\u00e9cr\u00e9atifs.",
   "Playa Hawai": "Parc r\u00e9cr\u00e9atif et aquatique avec piscines, toboggans, piscine-plage et h\u00e9bergement.",
@@ -500,7 +512,7 @@ const englishDescriptions = {
   "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9": "The city's main Catholic church and one of the architectural landmarks of Ibagu\u00e9's historic center.",
   "Jard\u00edn Bot\u00e1nico San Jorge": "A natural reserve of approximately 60 hectares located in the hills of Ibagu\u00e9, with trails and different plant collections.",
   "Museo Pan\u00f3ptico de Ibagu\u00e9": "Former prison complex restored and transformed into a museum and cultural space. It preserves its distinctive architecture and shares part of the city's history.",
-  "Parque Ecol\u00f3gico La Martinica": "A natural option for those who want to enjoy the mountains without going too far from the city, with hiking, viewpoints, vegetation and ecological routes.",
+  "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9": "Nature and adventure park in the Combeima Canyon, ideal for combining scenery, outdoor experiences and extreme activities.",
   "Playa Hawai": "Recreational and vacation water park with pools, aquatic areas, recreational activities, food options and lodging.",
   "Parque Caik\u00e9": "Theme, recreational and cultural park with family experiences, water areas and activities inspired by the identity of the department.",
   "Unidad Deportiva de la Calle 42": "Important sports venue in Ibagu\u00e9 with spaces for different disciplines. Its facilities include the swimming pool complex for swimming and aquatic activities.",
@@ -533,10 +545,9 @@ const englishDetails = {
     "What to do: tour its facilities, exhibitions and cultural spaces.",
     "Natura recommendation: combine the visit with Plaza de Bol\u00edvar and the traditional downtown area."
   ],
-  "Parque Ecol\u00f3gico La Martinica": [
-    "Ideal for: hikers, friends, couples and adventurous travelers.",
-    "What to do: ecological walks, landscape viewing and photography.",
-    "Natura recommendation: wear appropriate shoes, bring water and prefer morning routes."
+  "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9": [
+    "What to do: zip line, human slingshot, horseback riding, hiking, climbing wall, camping, family activities and food.",
+    "Natura recommendation: wear comfortable clothes and suitable footwear. Check schedules and availability before doing extreme activities."
   ],
   "Playa Hawai": [
     "Ideal for: families, couples, groups of friends and full-day plans.",
@@ -566,10 +577,9 @@ const frenchDetails = {
     "Id\u00e9al pour : culture, architecture, histoire et photographie.",
     "Plan recommand\u00e9 : le combiner avec une visite du centre traditionnel, de la Plaza de Bol\u00edvar et d'autres lieux historiques."
   ],
-  "Parque Ecol\u00f3gico La Martinica": [
-    "Depuis Natura 54 : environ 20-30 min jusqu'au secteur d'acc\u00e8s",
-    "Id\u00e9al pour : randonneurs, amis, couples et voyageurs aventureux.",
-    "Recommandation : porter des chaussures adapt\u00e9es, apporter de l'eau et faire les parcours de pr\u00e9f\u00e9rence le matin."
+  "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9": [
+    "\u00c0 faire : tyrolienne, lance-pierre humain, promenades \u00e0 cheval, randonn\u00e9e, mur d'escalade, camping, activit\u00e9s familiales et gastronomie.",
+    "Recommandation Natura : porter des v\u00eatements confortables et des chaussures adapt\u00e9es. Consulter les horaires et disponibilit\u00e9s avant les activit\u00e9s extr\u00eames."
   ]
 };
 
@@ -865,15 +875,15 @@ categories.tourism.places = [
     details: ["Ideal para: cultura, arquitectura, historia y fotograf\u00eda.", "Qu\u00e9 hacer: recorrer sus instalaciones, exposiciones y espacios culturales.", "Recomendaci\u00f3n Natura: combinar la visita con un recorrido por la Plaza de Bol\u00edvar y el centro tradicional de Ibagu\u00e9."]
   }),
   recommendation({
-    icon: "\u{1F94E}",
-    name: "Parque Ecol\u00f3gico La Martinica",
-    image: "assets/tourism/martinica.png",
-    address: "Variante Ibagu\u00e9-Armenia",
-    rating: "4.4 / 5",
-    distance: "Aprox. 7 km · 20-30 min en carro",
-    phone: "320 300 0043",
-    description: "Alternativa natural para quienes desean disfrutar de monta\u00f1a sin alejarse demasiado de la ciudad, con senderismo, miradores, vegetaci\u00f3n y recorridos ecol\u00f3gicos.",
-    details: ["Ideal para: senderistas, amigos, parejas y viajeros aventureros.", "Qu\u00e9 hacer: caminatas ecol\u00f3gicas, contemplaci\u00f3n de paisajes y fotograf\u00eda.", "Recomendaci\u00f3n Natura: utilizar calzado adecuado, llevar hidrataci\u00f3n y preferir recorridos durante la ma\u00f1ana."]
+    icon: "\u{1F3D4}\uFE0F",
+    name: "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9",
+    image: "assets/yaguare.png",
+    address: "Ca\u00f1\u00f3n del Combeima, sector Juntas, Ibagu\u00e9",
+    rating: "4.6 / 5",
+    distance: "Aprox. 17 km \u00b7 35-45 min en carro",
+    phone: "314 866 5237",
+    description: "Parque de naturaleza y aventura ubicado en el Ca\u00f1\u00f3n del Combeima, ideal para quienes buscan combinar paisajes, aire libre y actividades extremas.",
+    details: ["Qu\u00e9 hacer: tirolesa, cauchera humana, cabalgatas, senderismo, muro de escalada, camping, actividades familiares y gastronom\u00eda.", "Recomendaci\u00f3n Natura: lleva ropa c\u00f3moda y calzado adecuado. Para realizar actividades extremas, se recomienda consultar previamente horarios y disponibilidad."]
   }),
   recommendation({
     icon: "\u{1F3D6}\uFE0F",
@@ -1022,6 +1032,10 @@ function translatePage() {
   document.querySelectorAll("[data-i18n]").forEach((node) => {
     const key = node.dataset.i18n;
     node.textContent = translations[currentLanguage][key];
+  });
+  document.querySelectorAll("[data-i18n-html]").forEach((node) => {
+    const key = node.dataset.i18nHtml;
+    node.innerHTML = translations[currentLanguage][key];
   });
   document.querySelectorAll(".language-pill").forEach((pill) => {
     pill.textContent = currentLanguage.toUpperCase();

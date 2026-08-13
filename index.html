@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#7a5433" />
     <title>Natura 54 Experience</title>
-    <link rel="stylesheet" href="styles.css?v=29" />
+    <link rel="stylesheet" href="styles.css?v=32" />
   </head>
   <body>
     <main class="app-shell">
@@ -48,7 +48,7 @@
 
       <section class="screen guide-screen" id="guideScreen" aria-label="Natura 54 guide">
         <header class="topbar">
-          <button class="icon-button" id="backToLanguage" type="button" aria-label="Cambiar idioma">‹</button>
+          <button class="icon-button" id="backToLanguage" type="button" aria-label="Cambiar idioma"><svg class="nav-arrow-svg nav-arrow-svg--back" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" /></svg></button>
           <div>
             <span class="mini-label" data-i18n="topLabel">Guía para huéspedes</span>
             <h1>Natura 54 Experience</h1>
@@ -58,10 +58,22 @@
 
         <article class="welcome-panel">
           <section class="hero-actions" aria-label="Acciones principales">
-            <button class="primary-action" id="openChoices" type="button" data-i18n="whatToday">
-              ¿Qué quieres hacer hoy?
+            <button class="navigation-card" id="openChoices" type="button">
+              <span class="navigation-card__icon" aria-hidden="true">📍</span>
+              <span class="navigation-card__copy">
+                <strong data-i18n="exploreNearby">Explora cerca de Natura 54</strong>
+                <small data-i18n="exploreNearbyDescription">Restaurantes, compras, turismo y planes</small>
+              </span>
+              <span class="navigation-card__arrow" aria-hidden="true"><svg class="nav-arrow-svg" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg></span>
             </button>
-            <a class="secondary-action" href="rooms.html" data-i18n="knowUs">Conócenos</a>
+            <a class="navigation-card" href="rooms.html">
+              <span class="navigation-card__icon" aria-hidden="true">🏡</span>
+              <span class="navigation-card__copy">
+                <strong data-i18n="stayWithUs">Quiero alojarme</strong>
+                <small data-i18n="stayWithUsDescription">Fotos, información y contacto</small>
+              </span>
+              <span class="navigation-card__arrow" aria-hidden="true"><svg class="nav-arrow-svg" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg></span>
+            </a>
           </section>
           <div class="building-photo" aria-label="Fotos de la fachada de Natura 54">
             <figure class="building-slide">
@@ -73,17 +85,21 @@
           </div>
           <div class="building-hint" data-i18n="photoHint">Desliza para ver más fotos</div>
           <div class="content-block">
-            <p class="eyebrow" data-i18n="meet">Conoce a Natura 54</p>
             <h2 data-i18n="welcomeTitle">Bienvenido a Natura 54 Experience 🌿</h2>
-            <p data-i18n="welcomeOne">
-              Tu estadía comienza aquí. Descubre Natura 54, conoce los mejores lugares de Ibagué,
-              encuentra restaurantes, cafés, centros comerciales, planes turísticos y experiencias cerca de ti.
+            <p data-i18n-html="welcomeOne">
+              <strong>Un lugar, tres espacios para disfrutar de una estadía cómoda y especial:</strong> un apartamento y dos
+              apartaestudios, ubicados en una zona privilegiada de Ibagué, en la <strong>Milla de Oro de la ciudad.</strong><br /><br />
+              Nuestra ubicación te permite tener todo lo que necesitas muy cerca: <strong>centros comerciales, almacenes de
+              cadena, restaurantes, cafés, clínicas, entidades bancarias y diferentes opciones de entretenimiento,</strong>
+              <strong>todo muy cerca.</strong>
             </p>
-            <p data-i18n="welcomeTwo">
-              Hemos creado esta guía para que disfrutes la ciudad de una forma fácil, cómoda y especial.
+            <p data-i18n-html="welcomeTwo">
+              Además, hemos creado esta guía para acompañarte durante tu estadía. Aquí encontrarás <strong>planes turísticos,
+              experiencias, gastronomía y lugares recomendados</strong> para descubrir y disfrutar Ibagué.
             </p>
-            <p class="closing" data-i18n="welcomeThree">
-              Explora, descubre y vive Ibagué. Tu experiencia en Natura 54 empieza ahora.
+            <p class="closing" data-i18n-html="welcomeThree">
+              <strong>Explora nuestras recomendaciones, conoce la ciudad y vive Ibagué de la mejor manera.</strong><br /><br />
+              Bienvenido a Natura 54 Experience. <strong>Tu experiencia comienza aquí.</strong>
             </p>
           </div>
         </article>
@@ -108,7 +124,7 @@
 
       <section class="screen choices-screen" id="choicesScreen" aria-label="Opciones de experiencia">
         <header class="topbar">
-          <button class="icon-button" id="backToGuide" type="button" aria-label="Volver">‹</button>
+          <button class="icon-button" id="backToGuide" type="button" aria-label="Volver"><svg class="nav-arrow-svg nav-arrow-svg--back" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" /></svg></button>
           <div>
             <span class="mini-label" data-i18n="topLabel">Guía para huéspedes</span>
             <h1 data-i18n="whatToday">¿Qué quieres hacer hoy?</h1>
@@ -125,25 +141,25 @@
         <div class="choice-grid choice-grid-page" id="choiceGrid" aria-label="Opciones de experiencia">
           <button class="choice-button choice-gastronomy" type="button" data-category="gastronomy">
             <span class="choice-icon">🍽️</span>
-            <span class="choice-arrow" aria-hidden="true">›</span>
+            <span class="choice-arrow" aria-hidden="true"><svg class="nav-arrow-svg" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg></span>
             <strong data-i18n="gastronomy">Gastronomía</strong>
             <p data-i18n="gastronomyChoice">Restaurantes, cafés y sabores que no te puedes perder.</p>
           </button>
           <button class="choice-button choice-shopping" type="button" data-category="shopping">
             <span class="choice-icon">🛍️</span>
-            <span class="choice-arrow" aria-hidden="true">›</span>
+            <span class="choice-arrow" aria-hidden="true"><svg class="nav-arrow-svg" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg></span>
             <strong data-i18n="shopping">Comprar</strong>
             <p data-i18n="shoppingChoice">Tiendas, mercados y servicios útiles cerca de ti.</p>
           </button>
           <button class="choice-button choice-tourism" type="button" data-category="tourism">
             <span class="choice-icon">🌄</span>
-            <span class="choice-arrow" aria-hidden="true">›</span>
+            <span class="choice-arrow" aria-hidden="true"><svg class="nav-arrow-svg" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg></span>
             <strong data-i18n="tourism">Turismo</strong>
             <p data-i18n="tourismChoice">Atracciones, naturaleza y planes para explorar Ibagué.</p>
           </button>
           <button class="choice-button choice-sports" type="button" data-category="sports">
             <span class="choice-icon">⚽</span>
-            <span class="choice-arrow" aria-hidden="true">›</span>
+            <span class="choice-arrow" aria-hidden="true"><svg class="nav-arrow-svg" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7" /></svg></span>
             <strong data-i18n="sports">Deportes</strong>
             <p data-i18n="sportsChoice">Actividades deportivas y lugares para mantenerte activo.</p>
           </button>
@@ -160,7 +176,7 @@
 
       <section class="screen results-screen" id="resultsScreen" aria-label="Recomendaciones">
         <header class="topbar">
-          <button class="icon-button" id="backToChoices" type="button" aria-label="Volver">‹</button>
+          <button class="icon-button" id="backToChoices" type="button" aria-label="Volver"><svg class="nav-arrow-svg nav-arrow-svg--back" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" /></svg></button>
           <div>
             <span class="mini-label" data-i18n="topLabel">Guía para huéspedes</span>
             <h1 id="resultsTitle">Recomendaciones</h1>
@@ -172,7 +188,7 @@
       </section>
     </main>
     <script src="whatsapp.js?v=4"></script>
-    <script src="carousel-indicators.js?v=1"></script>
+    <script src="carousel-indicators.js?v=2"></script>
     <script src="script.js?v=23"></script>
   </body>
 </html>
