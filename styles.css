@@ -1131,10 +1131,10 @@ a {
 }
 
 .choice-sports {
-  --choice-soft: #f7ead9;
-  --choice-line: rgba(184, 118, 63, 0.24);
-  --choice-strong: #b8763f;
-  --choice-glow: rgba(184, 118, 63, 0.18);
+  --choice-soft: #efe4cf;
+  --choice-line: rgba(123, 84, 51, 0.22);
+  --choice-strong: #7b5433;
+  --choice-glow: rgba(123, 84, 51, 0.16);
 }
 
 .choice-button.is-selected {
@@ -1156,7 +1156,7 @@ a {
   align-items: center;
   gap: 8px;
   margin-top: auto;
-  color: var(--choice-strong, var(--leaf));
+  color: #8f5f32;
   font-size: 0.88rem;
   font-weight: 900;
 }
@@ -1167,8 +1167,8 @@ a {
   min-width: 34px;
   height: 34px;
   padding: 0 9px;
-  color: var(--choice-strong, var(--leaf));
-  background: var(--choice-soft, #f4eadc);
+  color: #8f5f32;
+  background: #f4e6d3;
   border-radius: 999px;
 }
 

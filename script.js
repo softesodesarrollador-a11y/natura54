@@ -27,7 +27,7 @@ const translations = {
     shoppingChoice: "Tiendas, mercados y servicios \u00fatiles cerca de ti.",
     tourismChoice: "Atracciones, naturaleza y planes para explorar Ibagu\u00e9.",
     sportsChoice: "Actividades deportivas y lugares para mantenerte activo.",
-    recommendationLabel: "recomendaciones",
+    recommendationLabel: "Recomendaciones",
     nearbyTitle: "Recomendaciones cerca de ti",
     nearbyText: "Todas las sugerencias est\u00e1n organizadas para que aproveches mejor tu tiempo durante tu hospedaje en Natura 54.",
     knowUs: "Conócenos",
@@ -68,7 +68,7 @@ const translations = {
     shoppingChoice: "Stores, markets and useful services near you.",
     tourismChoice: "Attractions, nature and plans to explore Ibagu\u00e9.",
     sportsChoice: "Sports activities and places to stay active.",
-    recommendationLabel: "recommendations",
+    recommendationLabel: "Recommendations",
     nearbyTitle: "Recommendations near you",
     nearbyText: "All suggestions are organized so you can make better use of your time during your stay at Natura 54.",
     knowUs: "Meet us",
@@ -109,7 +109,7 @@ const translations = {
     shoppingChoice: "Boutiques, march\u00e9s et services utiles pr\u00e8s de vous.",
     tourismChoice: "Attractions, nature et plans pour explorer Ibagu\u00e9.",
     sportsChoice: "Activit\u00e9s sportives et lieux pour rester actif.",
-    recommendationLabel: "recommandations",
+    recommendationLabel: "Recommandations",
     nearbyTitle: "Recommandations pr\u00e8s de vous",
     nearbyText: "Toutes les suggestions sont organis\u00e9es pour mieux profiter de votre temps pendant votre s\u00e9jour \u00e0 Natura 54.",
     knowUs: "Découvrez-nous",
@@ -222,11 +222,11 @@ const categories = {
       },
       {
         icon: "\u{1F37D}\uFE0F",
-        name: "Empireo Gastrobar",
-        address: "Carrera 7C #51-06",
-        phone: "313 752 2523",
-        es: "Una alternativa para quien busca algo m\u00e1s tipo restaurante + gastrobar, con comida, bebidas y cocteler\u00eda.",
-        en: "A good option for a restaurant and gastrobar experience with food, drinks and cocktails."
+        name: "Fervor Restaurante Ibagu\u00e9",
+        address: "Calle 57 #7C-51, esquina",
+        phone: "313 324 6936",
+        es: "Restaurante de ambiente elegante y acogedor, ideal para disfrutar de una buena comida en pareja, familia o con amigos.",
+        en: "An elegant and welcoming restaurant, ideal for enjoying a good meal as a couple, with family or with friends."
       }
     ]
   },
@@ -463,7 +463,7 @@ const frenchDescriptions = {
   "Tamal y Lechona Linda - Plaza de la 28": "Tamales, lechona et cuisine typique du Tolima \u00e0 l'int\u00e9rieur de la Plaza de Mercado La 28.",
   "Fog\u00f3n del Pollo - Jord\u00e1n": "Poulet r\u00f4ti et repas. Nous recommandons de confirmer l'adresse par t\u00e9l\u00e9phone avant la visite.",
   "El Patr\u00f3n Liquor Store": "Bonne option lorsque l'h\u00f4te souhaite prendre un verre, partager un moment et profiter de l'ambiance nocturne sans s'\u00e9loigner de Natura 54.",
-  "Empireo Gastrobar": "Alternative pour ceux qui recherchent une exp\u00e9rience restaurant et gastrobar avec plats, boissons et cocktails.",
+  "Fervor Restaurante Ibagu\u00e9": "Restaurant \u00e9l\u00e9gant et accueillant, id\u00e9al pour savourer un bon repas en couple, en famille ou entre amis. Sa cuisine associe des plats soign\u00e9s, des saveurs vari\u00e9es et une exp\u00e9rience gastronomique agr\u00e9able.",
   "Acqua Power Center": "Id\u00e9al pour boutiques, restaurants, caf\u00e9s, divertissement et achats vari\u00e9s. Tr\u00e8s pratique gr\u00e2ce \u00e0 sa proximit\u00e9 de Natura 54.",
   "Surtiplaza - Acqua": "Supermarch\u00e9 pour courses, boissons, produits d'hygi\u00e8ne et articles du quotidien.",
   "Centro Comercial Multicentro": "Id\u00e9al pour mode, services, restaurants, supermarch\u00e9 et achats du quotidien. L'une des principales options commerciales du secteur.",
@@ -499,7 +499,7 @@ const englishDescriptions = {
   "Salvador y Milagros": "Colombian cuisine restaurant combining traditional dishes, grill and contemporary proposals. An excellent option for lunch, dinner and special occasions.",
   "Don Pedro T\u00edpico Colombiano": "Restaurant specializing in traditional Colombian cuisine, meats and grilled dishes. A good option for enjoying classic dishes in a family-friendly atmosphere.",
   "Tamal y Lechona Linda - Plaza de la 28": "A place to enjoy tamal, lechona and other traditional Tolima flavors inside one of the city's traditional commercial areas.",
-  "Empireo Gastrobar": "Gastrobar with a restaurant, drinks and cocktail concept. Recommended for guests looking for food with a modern and social atmosphere.",
+  "Fervor Restaurante Ibagu\u00e9": "An elegant and welcoming restaurant, ideal for enjoying a good meal as a couple, with family or with friends. Its menu combines carefully prepared dishes, varied flavors and an enjoyable dining experience, making it an excellent choice for lunch or dinner very close to Natura 54.",
   "Tamales Don Floro": "Known for tamales and traditional preparations. A recommended option to try one of Tolima's most representative flavors.",
   "9K Gourmet Zona 60": "Restaurant located in Ibagu\u00e9's Zona 60, with a varied food proposal in a pleasant, modern setting. A very close option to Natura 54 for enjoying a meal with your partner, family or friends without leaving the area.",
   "Fog\u00f3n del Pollo - Jord\u00e1n": "Restaurant specializing in roasted chicken and traditional meals. A practical option for lunch or dinner in the Jord\u00e1n area.",
@@ -666,7 +666,7 @@ categories.gastronomy.places = [
   recommendation({
     icon: "\u{1F378}",
     name: "El Patr\u00f3n Liquor Store",
-    image: "assets/gastronomy/el-patron-liquor-store.png",
+    image: "assets/gastronomy/pattron.png?v=20260813-2",
     address: "Calle 53 #7B-55",
     rating: "4.9 / 5",
     distance: "Aprox. 200 m · 2-3 min caminando",
@@ -714,13 +714,13 @@ categories.gastronomy.places = [
   }),
   recommendation({
     icon: "\u{1F37D}\uFE0F",
-    name: "Empireo Gastrobar",
-    image: "assets/gastronomy/empireo-gastrobar.png",
-    address: "Carrera 7C #51-06",
+    name: "Fervor Restaurante Ibagu\u00e9",
+    image: "assets/gastronomy/fervor.png?v=1",
+    address: "Calle 57 #7C-51, esquina",
     rating: "4.7 / 5",
-    distance: "Aprox. 500 m · 6-8 min caminando / 3 min en carro",
-    phone: "313 752 2523",
-    description: "Gastrobar con propuesta de restaurante, bebidas y cocteler\u00eda. Recomendado para quienes buscan una experiencia gastron\u00f3mica acompa\u00f1ada de un ambiente moderno y social."
+    distance: "Aprox. 4 min caminando",
+    phone: "313 324 6936",
+    description: "Restaurante de ambiente elegante y acogedor, ideal para disfrutar de una buena comida en pareja, familia o con amigos. Su propuesta combina platos bien elaborados, sabores variados y una experiencia gastron\u00f3mica agradable, convirti\u00e9ndolo en una excelente opci\u00f3n para almorzar o cenar muy cerca de Natura 54."
   }),
   recommendation({
     icon: "\u{1F372}",
@@ -910,7 +910,7 @@ categories.tourism.places = [
   recommendation({
     icon: "\u{1F3D4}\uFE0F",
     name: "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9",
-    image: "assets/yaguare.png",
+    image: "assets/tourism/yaguare.png",
     address: "Ca\u00f1\u00f3n del Combeima, sector Juntas, Ibagu\u00e9",
     rating: "4.6 / 5",
     distance: "Aprox. 17 km \u00b7 35-45 min en carro",
