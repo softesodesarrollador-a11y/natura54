@@ -37,17 +37,19 @@ const translations = {
     tourismIntro: "Planes para descubrir Ibagu\u00e9 entre naturaleza, cultura y aventura.",
     sportsIntro: "Escenarios deportivos, canchas y espacios para moverte en la ciudad.",
     fromNatura: "Desde Natura 54",
-    phone: "Tel."
+    phone: "Tel.",
+    delivery: "Domicilio.",
+    developedBy: "Desarrollado por"
   },
   en: {
     topLabel: "Guest guide",
     meet: "Meet Natura 54",
     welcomeTitle: "Welcome to Natura 54 Experience \u{1F33F}",
     welcomeOne:
-      "Your stay starts here. Discover Natura 54, explore the best places in Ibagu\u00e9, and find restaurants, caf\u00e9s, shopping centers, tourist plans and nearby experiences.",
+      "<strong>One place, three spaces designed for a comfortable and memorable stay:</strong> one apartment and two studio apartments in a prime area of Ibagu\u00e9, in the <strong>city's Golden Mile.</strong><br><br>Our location puts everything you need close at hand: <strong>shopping centers, major retail stores, restaurants, caf\u00e9s, clinics, banks and a variety of entertainment options,</strong> <strong>all just moments away.</strong>",
     welcomeTwo:
-      "We created this guide so you can enjoy the city in an easy, comfortable and special way.",
-    welcomeThree: "Explore, discover and live Ibagu\u00e9. Your Natura 54 experience starts now.",
+      "We have also created this guide to accompany you throughout your stay. Here you will find <strong>sightseeing ideas, experiences, food and recommended places</strong> to discover and enjoy Ibagu\u00e9.",
+    welcomeThree: "<strong>Explore our recommendations, discover the city and experience Ibagu\u00e9 at its best.</strong><br><br>Welcome to Natura 54 Experience. <strong>Your experience starts here.</strong>",
     photoHint: "Swipe to see more photos",
     addressLabel: "Address",
     route: "Get directions",
@@ -76,17 +78,19 @@ const translations = {
     tourismIntro: "Plans to discover Ibagu\u00e9 through nature, culture and adventure.",
     sportsIntro: "Sports venues, soccer fields and places to stay active in the city.",
     fromNatura: "From Natura 54",
-    phone: "Phone"
+    phone: "Phone",
+    delivery: "Delivery:",
+    developedBy: "Developed by"
   },
   fr: {
     topLabel: "Guide des h\u00f4tes",
     meet: "D\u00e9couvrez Natura 54",
     welcomeTitle: "Bienvenue \u00e0 Natura 54 Experience \u{1F33F}",
     welcomeOne:
-      "Votre s\u00e9jour commence ici. D\u00e9couvrez Natura 54, les meilleurs lieux d'Ibagu\u00e9, ainsi que des restaurants, caf\u00e9s, centres commerciaux, plans touristiques et exp\u00e9riences proches de vous.",
+      "<strong>Un seul lieu, trois espaces pour profiter d'un s\u00e9jour confortable et unique :</strong> un appartement et deux studios, situ\u00e9s dans un secteur privil\u00e9gi\u00e9 d'Ibagu\u00e9, au c\u0153ur du <strong>quartier de la Milla de Oro.</strong><br><br>Gr\u00e2ce \u00e0 notre emplacement, tout ce dont vous avez besoin se trouve \u00e0 proximit\u00e9 : <strong>centres commerciaux, grandes enseignes, restaurants, caf\u00e9s, cliniques, banques et diverses possibilit\u00e9s de divertissement,</strong> <strong>le tout \u00e0 quelques pas.</strong>",
     welcomeTwo:
-      "Nous avons cr\u00e9\u00e9 ce guide pour que vous profitiez de la ville de mani\u00e8re simple, confortable et sp\u00e9ciale.",
-    welcomeThree: "Explorez, d\u00e9couvrez et vivez Ibagu\u00e9. Votre exp\u00e9rience \u00e0 Natura 54 commence maintenant.",
+      "Nous avons \u00e9galement cr\u00e9\u00e9 ce guide pour vous accompagner pendant votre s\u00e9jour. Vous y trouverez <strong>des id\u00e9es de visites, des exp\u00e9riences, des adresses gastronomiques et des lieux recommand\u00e9s</strong> pour d\u00e9couvrir Ibagu\u00e9 et en profiter pleinement.",
+    welcomeThree: "<strong>Explorez nos recommandations, d\u00e9couvrez la ville et vivez Ibagu\u00e9 de la plus belle des mani\u00e8res.</strong><br><br>Bienvenue \u00e0 Natura 54 Experience. <strong>Votre exp\u00e9rience commence ici.</strong>",
     photoHint: "Faites glisser pour voir plus de photos",
     addressLabel: "Adresse",
     route: "Itin\u00e9raire",
@@ -115,7 +119,9 @@ const translations = {
     tourismIntro: "Des plans pour d\u00e9couvrir Ibagu\u00e9 entre nature, culture et aventure.",
     sportsIntro: "Sites sportifs, terrains et espaces pour rester actif en ville.",
     fromNatura: "Depuis Natura 54",
-    phone: "T\u00e9l."
+    phone: "T\u00e9l.",
+    delivery: "Livraison :",
+    developedBy: "D\u00e9velopp\u00e9 par"
   }
 };
 
@@ -580,8 +586,35 @@ const frenchDetails = {
   "Parque Ecotur\u00edstico y Extremo Yaguar\u00e9": [
     "\u00c0 faire : tyrolienne, lance-pierre humain, promenades \u00e0 cheval, randonn\u00e9e, mur d'escalade, camping, activit\u00e9s familiales et gastronomie.",
     "Recommandation Natura : porter des v\u00eatements confortables et des chaussures adapt\u00e9es. Consulter les horaires et disponibilit\u00e9s avant les activit\u00e9s extr\u00eames."
+  ],
+  "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9": [
+    "Id\u00e9al pour : architecture, culture, histoire et promenades dans le centre-ville.",
+    "\u00c0 faire : visiter la cath\u00e9drale, parcourir la Plaza de Bol\u00edvar et poursuivre \u00e0 pied vers les sites du centre historique.",
+    "Recommandation Natura : combiner cette visite avec le Pan\u00f3ptico et d'autres attractions culturelles du centre-ville."
+  ],
+  "Playa Hawai": [
+    "Id\u00e9al pour : familles, couples, groupes d'amis et sorties \u00e0 la journ\u00e9e.",
+    "\u00c0 faire : profiter des piscines, des espaces aquatiques et des diff\u00e9rentes zones de loisirs.",
+    "Recommandation Natura : pr\u00e9voir une demi-journ\u00e9e ou une journ\u00e9e compl\u00e8te pour la visite."
+  ],
+  "Parque Caik\u00e9": [
+    "Id\u00e9al pour : familles, enfants, couples et groupes.",
+    "\u00c0 faire : profiter des exp\u00e9riences aquatiques, des activit\u00e9s de loisirs, des parcours th\u00e9matiques et des espaces culturels.",
+    "Recommandation Natura : consulter les horaires et les tarifs avant de partir, surtout les week-ends et jours f\u00e9ri\u00e9s."
   ]
 };
+
+Object.assign(frenchDescriptions, {
+  "Don Pedro T\u00edpico Colombiano": frenchDescriptions["Don Pedro T\u00edpico Colombiano - Calle 60"],
+  "Mercacentro No. 4 \u2013 Avenida Guabinal": frenchDescriptions["Mercacentro No. 4 Av. Guabinal"],
+  "Surtiplaza \u2013 Acqua": frenchDescriptions["Surtiplaza - Acqua"],
+  "Tienda D1 \u2013 Distrito 60": frenchDescriptions["Tienda D1 Distrito 60"],
+  "Estaci\u00f3n de Servicio Terpel \u2013 Guabinal": frenchDescriptions["Estaci\u00f3n de Servicio Terpel Guabinal"],
+  "Estaci\u00f3n de Servicio Texaco \u2013 Piedra Pintada": frenchDescriptions["Estaci\u00f3n de Servicio Texaco - Piedra Pintada"],
+  "Catedral Inmaculada Concepci\u00f3n de Ibagu\u00e9": frenchDescriptions["Catedral Inmaculada Concepci\u00f3n - Plaza de Bol\u00edvar"],
+  "Unidad Deportiva de la Calle 42": frenchDescriptions["Complejo de Piscinas Ol\u00edmpicas - Unidad Deportiva de la Calle 42"],
+  "The Synthetic - Canchas de la 64": frenchDescriptions["The Synthetic / Canchas de la 64"]
+});
 
 function recommendation({ icon, name, image, address, rating, distance, phone, phoneLabel, description, details }) {
   const item = {
@@ -594,14 +627,14 @@ function recommendation({ icon, name, image, address, rating, distance, phone, p
     phone,
     phoneLabel,
     es: description,
-    en: description,
+    en: englishDescriptions[name] || description,
     fr: frenchDescriptions[name] || description
   };
 
   if (details) {
     item.details = {
       es: details,
-      en: details,
+      en: englishDetails[name] || details,
       fr: frenchDetails[name] || details
     };
   }
@@ -1023,6 +1056,16 @@ function placeDetails(place) {
   return place.details ? place.details[currentLanguage] || place.details.en || place.details.es : null;
 }
 
+function localizedDistance(distance) {
+  if (!distance || currentLanguage === "es") return distance;
+
+  const replacements = currentLanguage === "en"
+    ? [[/^Aprox\./, "Approx."], [/En el mismo edificio/g, "In the same building"], [/min caminando/g, "min walk"], [/min en carro/g, "min by car"]]
+    : [[/^Aprox\./, "Env."], [/En el mismo edificio/g, "Dans le m\u00eame b\u00e2timent"], [/min caminando/g, "min \u00e0 pied"], [/min en carro/g, "min en voiture"]];
+
+  return replacements.reduce((text, [pattern, value]) => text.replace(pattern, value), distance);
+}
+
 function ratingValue(place) {
   return Number.parseFloat(place.rating) || 0;
 }
@@ -1160,8 +1203,8 @@ function renderRecommendations() {
       const meta = [
         place.address ? `\u{1F4CD} ${place.address}` : "",
         place.rating ? `\u2B50 ${place.rating}` : "",
-        place.distance ? `${copy.fromNatura}: ${place.distance}` : "",
-        place.phone ? `\u260E\uFE0F ${place.phoneLabel || copy.phone} ${place.phone}` : ""
+        place.distance ? `${copy.fromNatura}: ${localizedDistance(place.distance)}` : "",
+        place.phone ? `\u260E\uFE0F ${place.phoneLabel === "Domicilio." ? copy.delivery : place.phoneLabel || copy.phone} ${place.phone}` : ""
       ]
         .filter(Boolean)
         .map((item) => `<span>${item}</span>`)
